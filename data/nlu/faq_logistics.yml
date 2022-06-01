@@ -1,0 +1,186 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/faq_logistics_1
+    examples: |
+      - Bộ chứng từ xuất nhập khẩu gồm những gì?
+      - Bộ chứng từ xuất nhập khẩu
+      - Bo chung tu xuat nhap khau
+      - bộ chứng từ xuất nhập có những gì
+      - chứng từ xuất nhập khẩu bao gồm những gì
+      - bộ chứng từ xuất nhập khẩu gồm những giấy tờ gì
+      - chung tu xuat nhap khau
+      - chứng từ xuất nhập có những giấy tờ gì
+      - Bo chung tu xuat nhap khau gom nhung gi
+      - Bộ chứng từ xnk
+      - bộ chứng từ xnk gồm những gì
+      - Bộ chứng từ xnk có những giấy tờ gì
+      - Bo chung tu xnk gom nhung giay to gi
+      - Bo chung tu XNK
+      - Bo chung tu xuat nhap khau co nhung gi
+      - Bộ chứng từ xnk hàng hóa có những gì
+      - 
+  - intent: faq/faq_logistics_2
+    examples: |
+      - Hợp đồng ngoại thương là gì?
+      - Hợp đồng ngoại thương
+      - Thế nào là hợp đồng ngoại thương
+      - hd ngoại thương là gì
+      - hop dong ngoai thuong
+      - Hop dong ngoai thuong la gi
+      - hd ngoai thuong la gi
+      - Hd ngoai thuong
+      - Hợp đồng ngoại thương là như thế nào
+      - Hợp đồng ngoại thương là ntn
+      - hd ngoại thương là ntn
+      - Định nghĩa hợp đồng ngoại thương
+      - dinh nghia hop dong ngoai thuong
+      - the nao la hop dong ngoai thuong
+      - Hop dong ngoai thuong la nhu the nao
+      - Dinh nghia hd ngoai thuong
+      - hdnt là gì
+      - Như nào là hợp đồng ngoại thương
+      - nhu nao la hop dong ngoai thuong
+      - Hop dong ngoai thuong la gi
+      - hdnt
+      - hd ngoại thương là gì
+      - như nào là hợp đồng ngoại thiwong
+      - như nào là hd ngoại thương
+
+  - intent: faq/faq_logistics_3
+    examples: |
+      - Hóa đơn thương mại là gì?
+      - Hóa đơn thương mại là ntn
+      - Hoa don thuong mai la gi
+      - hd thuong mai la gi
+      - Thế nào là hóa đơn thương mại
+      - the nao la hoa don thuong mai
+      - The nao la hd thuong mai
+      - hoa don thuong mai
+      - Hd thuong mai
+      - Hóa đơn thương mại là như thế nào
+      - Định nghĩa hóa đơn thương mại
+      - dinh nghia hoa don thuong mai
+      - dn hóa đơn thương mại
+      - dn hoa don thuong mai
+      - Hoa don thuong mai
+      - hdtm
+      - Hoa don thuong mai la gi
+      - Như nào là hóa đơn thương mại
+      - hdtm là gì
+      - Hoa don thuong mai la nhu the nao
+      - Như nào là hóa đơn thương mại
+      - Nhu nao la hoa don thuong mai
+      - hd thương mại là gì
+      
+
+  - intent: faq/faq_logistics_4
+    examples: |
+      - Phiếu đóng gói là gì?
+      - Phieu dong goi la gi
+      - phiếu đóng gói là như thế nào
+      - Thế nào là phiếu đóng gói
+      - Định nghĩa phiếu đóng gói
+      - phiếu đóng gói
+      - Phieu dong goi
+      - phiếu đóng gói là ntn
+      - phieu dong goi la nhu the nao
+      - phieu dong goi la ntn
+      - Phiếu đóng gói hàng hóa là gì
+      - Định nghĩa phiếu đóng gói hàng hóa
+      - Dinh nghia phieu dong goi
+      - dn phiếu đóng gói
+      - The nao la phieu dong goi
+      - the nao la phieu dong goi hang hoa
+      - Phiếu đóng gói hàng hóa là gì
+      - Phiếu đóng gói là như thế nào
+      - Phiếu đóng gói hàng hóa là gì
+      - Dn phieu dong goi hang hoa
+      - dn phiếu đóng gói hàng hóa
+
+
+  - intent: faq/faq_logistics_5
+    examples: |
+      - Chứng nhận xuất xứ là gì?
+      - Chứng nhận xuât xứ 
+      - chung nhan xuat xu
+      - Chung nhan xuat xu la gi
+      - Như nào là chứng nhận xuất xứ
+      - Thế nào là chứng nhận xuất xứ
+      - chứng nhận xuất xứ là ntn
+      - chung nhan xuat xu la ntn
+      - Chứng nhận xuất xứ là như thế nào
+      - chung nhan xuat xu la nhu the nao
+      - Định nghĩa chứng nhận xuất xứ
+      - Dinh nghia chung nhan xuat xu
+      - Cho tôi hỏi chứng nhận xuất xứ là gì
+      - Cho t hỏi chứng nhận xuất xứ là gì
+      - đn chứng nhận xuất xứ
+      - dn chung nhan xuat xu
+      - nhu nao la chung nhan xuat xu
+      - the nao la chung nhan xuat xu
+      - Chứng nhận xuất xứ là ntn
+      - Chung nhan xuat xu la ntn
+      - Giấy chứng nhận xuất xứ là gì
+      - Giay chung nhan xuat xu la gi
+      - Chứng nhận xuất xứ hàng hóa là gì
+      - chứng nhận xuất xứ hàng hóa là ntn
+      - Định nghĩa chứng nhận xuất xứ hàng hóa
+      - Đn chứng nhận xuất xứ hàng hóa
+      - Dn chung nhan xuat xu hang hoa
+      - Dinh nghia chung nhan xuat xu hang hoa
+      - chứng nhận xuất xứ hàng hóa
+      - chung nhan xuat xu hang hoa
+
+
+  - intent: faq/faq_logistics_6
+    examples: |
+      - Incoterms là gì?
+      - Incoterms là viết tắt của từ gì
+      - Incoterms la gi
+      - incoterms la viet tat cua tu gi
+      - Định nghĩa incoterms
+      - dinh nghia incoterms
+      - Incoterms
+      - incoterms viet tat of tu gi
+      - incoterms viet tat cua tu gi
+      - dn incoterms
+      - Cho tôi hỏi incoterms là gì
+      - Cho t hỏi incoterms là gì
+      - Thế nào là incoterms
+      - The nao la incoterms
+      - Cho t hoi incoterms la gi
+      - incoterms là như thế nào
+      - incoterms là ntn
+      - Như nào là incoterms
+      - nhu nao la incoterms
+      - Incoterms là viết tắt của từ tiếng anh nào
+      - incoterms viết tắt của từ tiếng anh nào
+      - Incoterms la viet tat cua tu tieng anh nao
+      
+
+responses:
+  utter_faq/faq_logistics_1: 
+    - text: "Bộ chứng từ xuất nhập khẩu bao gồm những giấy tờ cần thiết để hoàn thành việc xuất hay nhập khẩu một lô hàng\n 
+          như Hợp đồng ngoại thương (Sales Contract), Hóa đơn thương mại (Commercial Invoice), Phiếu đóng gói (Packing List),\n 
+          Vận đơn (Bill of Lading)…"
+
+  utter_faq/faq_logistics_2:
+    - text: "Là thỏa thuận mua bán hàng hóa dịch vụ giữa người mua và người bán ở các quốc gia khác nhau. Các nội dung liên quan thường gồm:\n 
+          thông tin người mua & người bán, thông tin hàng hóa, điều kiện cơ sở giao hàng, thanh toán v.v…"
+
+  utter_faq/faq_logistics_3:
+    - text: "Hóa đơn thương mại (Commercial Invoice): chứng từ do người xuất khẩu phát hành để yêu cầu người mua thanh toán cho lô\n 
+        hàng đã bán theo thỏa thuận trong hợp đồng ngoại thương đã ký kết."
+
+  utter_faq/faq_logistics_4:
+    - text: "Phiếu đóng gói hàng hóa (Packing List): là loại chứng từ thể hiện cách thức đóng gói của lô hàng. Qua đó, người đọc \n
+          có thể biết lô hàng có bao nhiêu kiện, trọng lượng và dung tích thế nào…"
+
+  utter_faq/faq_logistics_5:
+    - text: "Giấy chứng nhận xuất xứ hàng hóa là chứng từ cho biết nguồn gốc xuất xứ của hàng hóa được sản xuất tại vùng lãnh thổ, \n
+        quốc gia nào đó."
+
+  utter_faq/faq_logistics_6:
+    - text: "Incoterms là từ viết tắt của cụm từ tiếng Anh: International Commerce Terms. Đây tập hợp các quy tắc thương mại quốc tế \n
+          quy định về trách nhiệm của các bên trong hợp đồng ngoại thương."

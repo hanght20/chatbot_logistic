@@ -1,0 +1,10 @@
+[
+  {
+    "text": "cảng chuyển tải là như thế nào",
+    "intent": "ask_product_define",
+    "intent_prediction": {
+      "name": "ask_surcharge",
+      "confidence": 0.8108537197113037
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "hợp đồng ngoại thương",
+    "intent_response_key_target": "faq/faq_logistics_3",
+    "intent_response_key_prediction": {
+      "name": "faq/faq_logistics_2",
+      "confidence": 0.894489586353302
+    }
+  },
+  {
+    "text": "lcl",
+    "intent_response_key_target": "faq/faq_seaway_8",
+    "intent_response_key_prediction": {
+      "name": "faq/faq_seaway_2",
+      "confidence": 0.723292887210846
+    }
+  },
+  {
+    "text": "lcl viết tắt của từ gì",
+    "intent_response_key_target": "faq/faq_seaway_8",
+    "intent_response_key_prediction": {
+      "name": "faq/faq_seaway_2",
+      "confidence": 0.7553929090499878
+    }
+  }
+]

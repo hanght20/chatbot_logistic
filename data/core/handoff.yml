@@ -1,0 +1,7 @@
+version: "2.0"
+
+rules:
+  - rule: handoff
+    steps:
+      - intent: handoff
+      - action: utter_handoff

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "hàng nhạy cảm",
+    "definition": "Hóa chất, bột, thuốc, Thực phẩm, mỹ phẩm, Sản phẩm sức khỏe, chất lỏng,...",
+    "price": "26.000 đ"
+  },
+  {
+    "name": "hàng máy móc",
+    "definition": "Máy móc công nghiệp, nông nghiệp, sản xuất, pha chế, xe đạp, xe máy điện, hàng SNI,...",
+    "price": "30.000 đ"
+  },
+  {
+    "name": "hàng nguyên pin",
+    "definition": "Pin và các loại sạc dự phòng, pin nguyên chất, nguyên liệu pin ( hàng dễ cháy nổ)..",
+    "price": "36.000 đ"
+  },
+  {
+    "name": "hàng thương hiệu",
+    "definition": "Quần áo mới bao gồm cả hàng thương hiệu và không thương hiệu",
+    "price": "19.000 đ"
+  },
+  {
+    "name": "hàng nguyên container",
+    "definition": "1 loại hàng đi nguyên 1 cont từ 60 khối trở lên",
+    "price": "9.000 đ"
+  },
+  {
+    "name": "hàng phổ thông",
+    "definition": "Hàng gia dụng, hàng lô thông thường, hàng nhựa,, không mang điện, không có pin( kệ nhựa, bát đũa , cốc chén, rổ...)",
+    "price": "13.000 đ"
+  },
+  {
+    "name": "hàng điện tử",
+    "definition": "Hàng điện tử, hàng có mang điện như kim loại, máy móc nhỏ có pin hoặc cắm điện..... ",
+    "price": "17.000 đ"
+  },
+  {
+    "name": "mỹ phẩm, thực phẩm",
+    "definition": "Các loại mỹ phẩm, thực phẩm, thức ăn chó mèo....",
+    "price": "17.000 đ"
+  },
+  {
+    "name": "phụ tùng vật tư",
+    "definition": "Phụ tùng vật tư Ô tô, xe máy, máy công trình..",
+    "price": "16.000 đ"
+  },
+  {
+    "name": "linh kiện điện tử",
+    "definition": "Bảng vi mạch, loa điện thoại, 1 số phụ kiện điện tử…",
+    "price": "16.000 đ"
+  },
+  {
+    "name": "hàng nặng",
+    "definition": "Các loại hàng kim khí, dụng cụ, vật dụng ( dao kéo, khung sắt thép....) có khối lượng > 500kg/1 khối",
+    "price": "11.000 đ"
+  },
+  {
+    "name": "hàng siêu nặng",
+    "definition": "Ốc vít, ắc quy, đinh sắt, vòng bi, các loại vật dụng có khối lượng> 850kg/ 1 khối",
+    "price": "9.000 đ"
+  },
+  {
+    "name": "tờ khai hải quan",
+    "definition": "Là chứng từ kê khai hàng hóa xuất nhập khẩu với cơ quan hải quan để hàng đủ điều kiện xuất khẩu hoặc nhập khẩu."
+  },
+
+  {
+    "name": "phụ phí nhiên liệu",
+    "definition": "FAF là khoản phụ phí (ngoài cước biển) hãng tàu thu từ chủ hàng để bù đắp chi phí phát sinh do biến động giá nhiên liệu."
+  },
+  {
+    "name": "phí nâng hạ",
+    "definition": "Đây là loại phí trả cho cảng khi cảng thực hiện nghiệp vụ nâng hạ cont từ bãi tập kết lên xe vận chuyển hoặc hạ cont từ xe xuống bãi tập kết."
+  },
+  {
+    "name": "phụ phí tắc nghẽn cảng",
+    "definition": "Phụ phí này áp dụng khi cảng xếp hoặc dỡ xảy ra ùn tắc, có thể làm tàu bị chậm trễ, dẫn tới phát sinh chi phí liên quan cho chủ tàu (vì chi phí về mặt thời gian của cả con tàu là khá lớn)."
+  },
+  {
+    "name": "cảng chuyển tải",
+    "definition": "Là cảng mà hàng được chuyển tiếp sang phương tiện khác để tiếp tục hành trình đến cảng đích."
+  }
+]

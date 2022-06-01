@@ -1,0 +1,8 @@
+version: "2.0"
+
+rules:
+  - rule: respond to faq logistics
+    steps:
+      - intent: faq_logistics
+      - action: utter_faq
+  

@@ -1,0 +1,115 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/faq_1
+    examples: |
+      - Tôi có thể liên hệ với VHT Logistics bằng cách nào?
+      - Liên hệ vs VHT Logistics thế nào?
+      - tôi muốn liên hệ vs VHT logistics thì làm thế nào
+      - để liên hệ với VHT logistics thì làm như nào
+      - t có thể liên hệ vs VHT Logistics bằng cách nào
+      - t co the lien he vs VHT logistics bang cach nao
+      - Lien he voi VHT Logistics the nao
+      - Để liên hệ vs VHT logistics thì làm thế nào
+      - Tôi muốn liên hệ với công ty thì làm như nào
+      - A muốn liên hệ vs cty thì làm thế nào
+      - Tôi muốn liên hệ vs cty thì làm thế nào
+      - E muốn liên hệ vs cty thì làm thế nào
+      - liên hệ với bên em bằng cách nào
+      - Làm thế nào để liên hệ vs cty
+      - Lam the nao de lien he voi cong ty
+      - a muon lien he voi cong ty lam the nao
+      - E muon lien he vs cong ty thi lam the nao
+      - De lien he voi VHT thi lam the nao
+      - toi muon lien he vs cong ty thi lam the nao
+      -
+  - intent: faq/faq_2
+    examples: |
+      - Làm thế nào tôi có thể nhận được báo giá cước phí từ VHT Logistics?
+      - Để nhận dc báo giá cước phí thì làm thế nào
+      - tôi muốn nhận báo giá cước phí phải làm thế nào
+      - báo giá cước phí 
+      - để nhận được báo giá cước phí thì làm thế nào
+      - t muốn nhận báo giá cước phí thì làm như nào
+      - Lam the nao t co the nhan dc bao gia cuoc phi
+      - lam the nao toi co the nhan duoc bao gia cuoc phi tu VHT logistics
+      - bao gia cuoc phi
+      - A muon nhan bao gia cuoc phi
+      - Anh muốn nhận báo giá cước phí
+      - Tôi muốn nhận báo giá cước phí
+      - Em muốn nhận báo giá cước phí
+      - a muon nhan bao gia cuoc phi
+      - t muon nhan bao gia cuoc phi
+      -
+  - intent: faq/faq_3
+    examples: |
+      - VHT Logistics cung cấp những dịch vụ gì?
+      - Bên em cung cấp những dịch vụ gì?
+      - Công ty có những dịch vụ gì?
+      - Dịch vụ ở cty có đa dạng k?
+      - ben e cung cap nhung dich vu nao
+      - Ở cty có những dịch vụ gì
+      - Cty cung cấp những dịch vụ nào
+      - dịch vụ ở công ty có đa dạng không
+      - ben em cung cap nhung dich vu nao
+      - VHT logistics cung cap nhung dich vu gi
+      - Dich vu o cong ty co da dang khong
+      - Công ty có những dịch vụ nào
+      - công ty cung cấp những dịch vụ gì
+      - Dịch vụ bên em có những gì
+      - vht có những dịch vụ nào
+      - Có những dịch vụ gì
+      - co nhung dich vu nao
+
+  - intent: faq/faq_4
+    examples: |
+      - Công ty có thể thông quan hàng tại Sân bay Nội Bài, TP HCM, Đà Nẵng không?
+      - Bên em có thể thông quan hàng tại sân bay k
+      - cty có thể thông quan hàng tại sân bay k
+      - Có được thông quan hàng tại sân bay k
+      - Hàng hóa có được thông quan tại sân bay nội bài, tp hcm k
+      - Công ty có thông quan hàng hóa tại sân bay được không
+      - cong ty co the thong quan hang tai san bay noi bai, tp hcm, da nang khong
+      - Ben e co the thong quan hang tai san bay k
+      - co dc thong quan hang hoa o san bay k
+      - cty co the thong quan hang tai san bay noi bai k
+      - Bên e có thể thông quan hàng tại sân bay nội bài k
+      - Co duoc thong quan hang hoa tai san bay khong
+
+  - intent: faq/faq_5
+    examples: |
+      - Bồi thường và đền hàng trong trường hợp nào
+      - Có được bồi thường hàng không nếu hàng bị vỡ
+      - Hàng bị vỡ hay hỏng thì công ty có đền k
+      - Nếu hàng bị mất thì bên em có chịu trách nhiệm không
+      - Có đc bồi thường và đền hàng nếu hàng bị mất hay hỏng không
+      - Bồi thường trong trường hợp nào
+      - Cty có chịu trách nhiệm nếu hàng bị mất k
+      - Boi thuong va den hang trong truong hop nao
+      - có dc bồi thường hay đền hàng k
+      - hang bi vo hay hong thi cong ty co boi thuong k
+      - Den hang trong nhung truong hop nao
+      - ben e co chiu trach nhiem neu hang bi mat hay khong
+      - Cong ty co boi thuong va den hang neu hang bi hong k
+      
+responses:
+  utter_faq/faq_1:
+    - text: "Để liên hệ trực tiếp thì cách nhanh nhất là gọi điện trực tiếp vào số điện thoại 02436574566 hoặc chat vào mục nhắn tin hoặc gửi vào mail hotrokhachhang@vht.com"
+
+  utter_faq/faq_2:
+    - text:
+        "Có ba cách để {call_name} nhận được báo giá nhanh nhất, theo thứ tự sau:\n
+        - Gọi điện trực tiếp qua số điện thoại 02436574566\n
+        - Chat trực tiếp vào Fanpage Facebook của chúng tôi\n
+        - Điền thông tin lô hàng trong trang Báo giá"
+
+  utter_faq/faq_3:
+    - text:
+        "Chúng tôi chuyên cung cấp các dịch vụ giao nhận vận tải hàng hóa nội địa và quốc tế như: Vận tải đường biển, Vận tải đường bộ, Đại lý khai báo hải quan.
+        Để biết thêm chi tiết hãy truy cập trang Dịch vụ"
+
+  utter_faq/faq_4:
+    - text: "Chúng tôi có văn phòng tại các cảng biển và sân bay quốc tế ở Việt Nam và có thể thông quan tại Đà Nẵng,\n Hải Phòng, Hà Nội, Tp. Hồ Chí Minh cũng như các KCX/KCN trên toàn quốc"
+
+  utter_faq/faq_5:
+    - text: "Những trường hợp nào khách hàng sẽ được bồi thường nếu gặp rủi ro khi gửi hàng tại VHT:\n1. Nếu lỗi thuộc về chúng tôi: Bồi thường 100% giá trị kiện hàng\n2. Nếu lỗi thuộc về đơn vị thứ 3 như: Các hãng hàng không, hãng tàu…\n- Mua Bảo hiểm 8% giá trị hàng: Hàng rủi ro mất mát, bồi thường 100% giá trị hàng\n- Không mua bảo hiểm: Mất mát bồi thường 70% giá trị hàng, tối đa 5 triệu\n- Bồi thường theo luật Bưu Chính viễn thông Việt Nam\n3.Phụ thu: Vùng sâu vùng xa, hàng quá kilogam, quá khổ theo quy định\n4.Miễn trừ bảo hiểm:\n- Đối với hàng dễ vỡ như thuỷ tinh, sành sứ, tranh ảnh không được đóng kiện cẩn thận.\n- Bưu gửi đã được phát và người nhận không có ý kiến gì khi nhận bưu gửi.\n- Hàng hóa bị hư hại do đặc tính tự nhiên hoặc do điều kiện bảo quản không tốt."

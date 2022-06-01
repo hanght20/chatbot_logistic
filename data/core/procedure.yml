@@ -1,0 +1,11 @@
+version: "2.0"
+
+rules:
+  - rule: procedure import
+    steps:
+      - intent: procedure_import
+      - action: utter_procedure_import
+  - rule: procedure export
+    steps:
+      - intent: procedure_export
+      - action: utter_procedure_export

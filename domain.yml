@@ -1,0 +1,129 @@
+version: "2.0"
+
+intents:
+  - faq
+  - faq_customs
+  - faq_seaway
+  - faq_logistics
+  - chitchat
+  - register
+  - customs_export
+  - procedure_export
+  - customs_import
+  - procedure_import
+  - ask_product
+  - ask_product_define
+  - ask_price
+  - transport_register
+  - ask_register
+  - handoff
+  - ask_infomation
+  - ask_surcharge
+
+entities:
+  - call_name
+  - product
+  - fullname
+  - phone
+  - email
+  - transport_type
+  - shipping
+
+slots:
+  call_name:
+    type: text
+    initial_value: bạn
+    influence_conversation: false
+
+  product:
+    type: text
+    influence_conversation: false
+
+  fullname:
+    type: text
+    influence_conversation: false
+
+  phone:
+    type: text
+
+  email:
+    type: text
+    influence_conversation: false
+
+  transport_type:
+    type: categorical
+    influence_conversation: false
+    values:
+      - nhập khẩu
+      - xuất khẩu
+
+  shipping:
+    type: categorical
+    influence_conversation: true
+    values:
+      - đường bộ
+      - đường biển
+
+forms:
+  customer_form:
+    fullname:
+      - type: from_text
+    phone:
+      - type: from_text
+    email:
+      - type: from_text
+
+actions:
+  - action_product_define
+  - action_price
+  - validate_customer_form
+
+responses:
+ 
+
+  utter_product_info:
+    - text: "Dạ không biết {call_name} muốn vận chuyển hàng gì và số lượng bao nhiêu ạ"
+
+  utter_did_that_help:
+    - text: "{call_name} có cần hỗ trợ thêm không ạ "
+
+  utter_ask_product:
+    - text: "{call_name} vui lòng chọn loại hình vận chuyển"
+      buttons:
+        - title: "Đường bộ"
+          payload: "đường bộ"
+        - title: "Đường biển"
+          payload: "đường biển"
+
+  utter_check_product_roadway:
+    - text: "Vận chuyển theo đường bộ sẽ có những mặt hàng sau:\n- Hàng nặng\n- Hàng siêu nặng\n- Hàng phổ thông\n- Hàng điện tử\n- Phụ tùng vật tư\n- Mỹ phẩm, thực phẩm\n- Linh kiện điện tử"
+
+  utter_check_product_seaway:
+    - text: "Vận chuyển theo đường biển sẽ có những mặt hàng sau:\n- Hàng nhạy cảm\n- Hàng máy móc\n- Hàng nguyên pin\n- Hàng nguyên container"
+  utter_infomation:
+    - text:
+        "{call_name} vui lòng cung cấp cho tôi về bộ chứng từ xuất nhập khẩu qua địa chỉ mail: info@vhtlogistics.com\n
+        Và nhớ để lại thông tin liên hệ của {call_name} nữa nhé."
+
+  utter_ask_fullname:
+    - text: "Họ tên đầy đủ của {call_name} là gì?"
+
+  utter_ask_phone:
+    - text: "{call_name} vui lòng nhập thông tin số điện thoại"
+
+  utter_ask_email:
+    - text: "Email của {call_name} là gì?"
+  utter_submit:
+    - text: "Cảm ơn bạn đã cung cấp thông tin cho tôi. Tôi sẽ liên hệ với {call_name} {fullname} qua số điện thoại {phone} và địa chỉ email {email}"
+
+  utter_handoff:
+    - text:
+        "Dạ, hiện tại các tổng đài viên đang bận. Chúng tôi sẽ ghi nhận lại nội dung câu hỏi của {call_name}.\n
+        Tổng đài viên sẽ liên hệ hỗ trợ {call_name} ngay sau khi nhận được yêu cầu."
+
+  utter_out_of_scope:
+    - text: "Xin lỗi, câu hỏi của {call_name} nằm ngoài phạm vi trả lời của tôi."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

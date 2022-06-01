@@ -1,0 +1,48 @@
+version: "2.0"
+
+nlu:
+  - intent: customs_import
+    examples: |
+      - Thời gian thông quan cho một lô hàng [nhập khẩu](transport_type) mất bao lâu ?
+      - Thời gian thông quan cho 1 lô hàng [nhập khẩu](transport_type) mất bao lâu
+      - tg thông quan cho 1 lô hàng [nhập khẩu](transport_type) mất bao lâu
+      - Thông quan lô hàng [nhập khẩu](transport_type) mất bao lâu
+      - Mấy ngày thì thông quan dc 1 lô hàng [nhập khẩu](transport_type)
+      - bên e thông quan lô hàng [nhập khẩu](transport_type) mất bao lâu
+      - Thoi gian thong quan mot lo hang [nhap khau]{"entity":"transport_type","value":"nhập khẩu"}
+      - tg thong quan lo hang [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} mat bao lau
+      - Ben em thong quan lo hang [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} thoi gian bao lau
+      - ben e thong quan lo hang [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} mat bao lau
+      - [nhap]{"entity":"transport_type","value":"nhập khẩu"} mot don hang mat bao lau
+      - [nhập]{"entity":"transport_type","value":"nhập khẩu"} một đơn hàng mất bao lâu
+      
+
+  - intent: customs_export
+    examples: |
+      - Thời gian thông quan cho một lô hàng [xuất khẩu](transport_type) mất bao lâu ?
+      - Thông quan 1 lô hàng [xuất khẩu](transport_type) mất bao lâu
+      - Để thông quan lô hàng [xuất khẩu](transport_type) mất mấy giờ
+      - Thoi gian thong quan cho mot lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} mat bao lau
+      - thong quan mot lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} mat bao lau
+      - tg thông quan lô hàng [xuất khẩu](transport_type) mất bao lâu
+      - Bao lâu thì thông quan được 1 lô hàng [xuất khẩu](transport_type)
+      - bao lau thi thong quan duoc mot lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"}
+      - tg thong quan 1 lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"}
+      - bao giờ thì thông quan được một lô hàng [xuất khẩu](transport_type)
+      - một lô hàng [xuất khẩu](transport_type) thông quan mất bao lâu
+      - mot lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} mat bao lau
+      - Thời gian thông quan cho 1 lô hàng [xuất khẩu](transport_type) mất bao lâu
+      - Bao h thi thong quan lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"}
+      - 1 lô hàng [xuất khẩu](transport_type) thông quan mất bao lâu
+      - 1 lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} thong quan mat bao lau
+      - De thong quan 1 lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} mat bao lau
+
+responses:
+  utter_customs_import:
+    - text:
+        "Thời gian thông quan cho một lô hàng nhập thông thường là 8-16 giờ làm việc.\n
+        - Đối với những mặt hàng thuộc danh mục Kiểm Tra Chất Lượng Nhà Nước theo chuyên ngành (như thực phẩm, mỹ phẩm , đồ chơi trẻ em, vật liệu xây dựng, phế liệu…) thời gian có thể kéo dài hơn\n
+        - Chúng tôi sẽ có giải pháp đưa hàng về kho khách hàng bảo quản trong thời gian chờ kết quả kiểm tra, nhằm tiết giảm tối đa các khoản phí lưu container, lưu bãi…"
+
+  utter_customs_export:
+    - text: "Thời gian thông quan cho 1 lô hàng hàng xuất khẩu là trong vòng 8 giờ làm việc kể từ khi nhận được chứng từ."

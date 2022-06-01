@@ -1,0 +1,36 @@
+version: "2.0"
+
+nlu:
+  - intent: handoff
+    examples: |
+      - Nhân viên tư vấn
+      - nhân viên tư vấn
+      - Cho gặp nhân viên
+      - Gặp nhân viên
+      - Tư vấn viên
+      - Chat với nhân viên
+      - Tổng đài viên
+      - chat với người đi
+      - tôi muốn gặp bộ phận dịch vụ khách hàng
+      - tôi muốn gặp một nhân viên tư vấn
+      - tư vấn viên
+      - Muốn gặp tư vấn viên
+      - gặp tđv 
+      - gap tdv 
+      - nhan vien tu van
+      - cho gap nhan vien
+      - gap nhan vien
+      - tu van vien
+      - tong dai vien
+      - toi muon gap bo phan dich vu khach hang
+      - toi muon gap mot nhan vien tu van
+      - tu van vien
+      - muon gap tu van vien
+      - Cho anh gặp tư vấn viên
+      - Cho t gặp nhân viên tư vấn
+      - a muốn gặp nv tư vấn
+      - a muon gap nv tu van
+      - Có nhân viên tư vấn nào đang trực không
+      - Có nhân viên nào đang ở đây k
+      - Hãy cho tôi nói chuyện với tư vấn viên
+      

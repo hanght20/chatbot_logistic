@@ -1,0 +1,7 @@
+version: "2.0"
+
+rules:
+  - rule: respond to faq service
+    steps:
+      - intent: faq_service
+      - action: utter_faq

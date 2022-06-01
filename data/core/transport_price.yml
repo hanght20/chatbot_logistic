@@ -1,0 +1,40 @@
+version: "2.0"
+
+rules:
+  - rule: ask product define
+    steps:
+      - intent: ask_product_define
+      - action: action_product_define
+
+  - rule: ask surcharge
+    steps:
+      - intent: ask_surcharge
+      - action: action_product_define
+
+  - rule: ask price
+    steps:
+      - intent: ask_price
+      - action: action_price
+
+stories:
+  - story: ask product
+    steps:
+      - intent: ask_product
+      - action: utter_ask_product
+      - intent: ask_product
+        entities:
+          - shipping: "đường bộ"
+      - slot_was_set:
+          - shipping: "đường bộ"
+      - action: utter_check_product_roadway
+
+  - story: ask seaway
+    steps:
+      - intent: ask_product
+      - action: utter_ask_product
+      - intent: ask_product
+        entities:
+          - shipping: "đường biển"
+      - slot_was_set:
+          - shipping: "đường biển"
+      - action: utter_check_product_seaway

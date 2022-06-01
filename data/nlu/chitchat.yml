@@ -1,0 +1,273 @@
+version: "2.0"
+
+nlu:
+  - intent: chitchat/chitchat_0
+    examples: |
+      - Rất vui được gặp bạn
+      - Rất vui được gặp bạn.
+      - Rất vui lòng được gặp bạn!
+      - Êu, hỏi tí?
+      - Ây
+      - Bạn ơi?
+      - Tên bạn là gì?
+      - Cho mình biết tên bạn
+      - Xưng hô thế nào?
+      - Gọi tn?
+      - Xưng tn?
+      - Xin chào
+      - chào bạn
+      - chào
+      - alo
+      - hello
+      - hi
+      - xin chào chatbot
+      - chào chatbot
+      - chào bot
+      - hi chatbot
+      - hi bot hỗ trợ
+      - hello bot
+      - alo
+      - chào bạn
+      - Xin chào
+      - hi
+      - alo
+      - alo
+      - alo
+      - Xin chào
+      - hi
+      - Hello
+      - hi
+      - Xin chào
+      - hi n
+      - hi
+      - alo
+      - chào ad
+      - hi chào bạn
+      - alo
+      - xin chào ạ
+      - alo ạ
+      - Xin chào
+      - xin chào
+      - chào anh chi
+      - Hello
+      - HI
+      - alo
+      - hi
+      - alo
+      - alo
+      - xin chào
+      - xin đc hỗ trợ
+      - Xin chào
+      - Chào add
+      - Chào ac
+      - alo
+      - Chào ad
+      - Chào bạn
+      - Xin chào
+      - xin chào
+      - Alo
+      - hello
+      - alo
+      - chào bạn
+      - hi
+      - Alo
+      - hi ad
+      - chào bạn
+      - Chào ém
+      - hi
+      - Alo
+      - hi
+      - Hello
+      - hi
+      - alo
+      - alo
+      - alo
+      - Chào bạn
+      - Chào ad
+      - xin chào
+      - Alo
+      - heloeem
+      - em ơi
+      - chào 
+      - hi
+      - chào
+      - hi 
+      - tôi cần trợ giúp
+      - trợ giúp
+      - giúp tôi với
+      - cho tôi hỏi
+      - toi can tro giup
+      - giup toi voi
+      - cho toi hoi
+      - hỗ trợ tôi với
+      - cần hỗ trợ
+      - yes
+      - có
+      - ừ
+      - có thêm
+      - co
+      - uh
+
+  - intent: chitchat/chitchat_1
+    examples: |
+      - Bạn có khỏe không?
+      - Vẫn ổn chứ?
+      - Mình vẫn khỏe, còn bạn?
+      - T vẫn khỏe, m thì sao?
+      - Mình khỏe
+      - Vẫn khỏe
+      - khỏe
+      - khoẻ
+      - Bạn có khoẻ không
+      
+
+  - intent: chitchat/chitchat_2
+    examples: |
+      - Mình cảm ơn
+      - Cảm ơn
+      - Okay nhé
+      - Ok
+      - Hiểu rồi
+      - Ah, hiểu r
+      - Giỏi quá
+      - Làm tốt lắm
+      - Đúng rồi!
+      - đúng r
+      - Bạn đã giúp mình rất nhiều
+      - Bạn giúp mình r
+      - Mình không cần trợ giúp gì nữa
+      - Không cần trợ giúp
+      - Minh khong can giup gi nua
+      - Không cần hỗ trợ
+      - ko cần hỗ trợ nữa đâu
+      - không cần đâu
+      - không cần
+      - no
+      - ko cần
+      - ko can ho tro
+      - ko can tro giup
+      - Không
+      - không
+      - anh không
+      - Anh không
+      - Chị không
+      - chị không
+      - mình không
+      - Cảm ơn
+      - cám ơn
+      - cảm ơn bạn
+      - thanks
+      - thank you
+      - thanks bạn
+      - thank you very much
+      - mình cảm ơn nhé
+      - mình cảm ơn bạn
+      - xin cảm ơn bạn
+      - cảm ơn nhé
+      - mình cảm ơn bot nhé
+      - em cảm ơn nhé
+      - cảm ơn bạn nha
+      - em cảm ơn
+      - Cảm ơn
+      - cảm ơn em
+      - vâng, cảm ơn ạ
+      - cảm ơn bạn
+      - cảm ơn b
+      - mình cảm ơn!
+      - Thanks
+      - Thanks
+      - em cảm ơn anh/chị nhé
+      - cảm ơn ban
+      - Ok em, thanks nhé
+      - Cảm ơn bạn
+      - thank you
+      - cảm ơn em nha
+      - Cảm ơn bạn
+      - vâng cảm ơn add
+      - Em cảm ơn a nhé
+      - em cảm ơn anh nhé
+      - okie. Thanks, em.
+      - cảm ơn bạn nhiều
+      - anh cám ơn
+      - Cám ơn ạ
+      - oki thanks b
+      - cám ơn
+      - Cảm ơn bạn nhiều
+      - thankS
+      - cảm ơn em nhiều nhé
+      - Em cảm ơn ạ
+      - cám ơn bạn
+      - ok xin cảm ơn
+      - a cảm ơn
+      - thanks em
+      - thanksssss
+      - e xin cảm ơn
+      - mình cảm ơn
+      - thanks
+      - chị cảm ơn nhé
+      - cảm ơn bạn
+      - không. cảm ơn bạn nhs
+      - Cảm ơn ạ
+      - ok, cảm ơn em
+      - dạ em cảm ơn ạ
+      - ok, thanks ban
+      - cảm ơn e
+      - cảm ơn e
+      - xin cảm ơn
+      - mình cảm ơn nhiều
+      - cảm ơn bạn
+      - cảm ơn bạn
+      - ok. cảm mơn em
+      - ok cảm ơn ad
+      - cảm ơn bạn
+      - oki , cảm ơn b nhé
+      - ok e, a cảm ơn nhé
+      - thanks em
+      - cảm ơn b
+      - Xin cảm ơn
+      - T cảm ơn ạ!
+      - oki.thanks bạn.
+      - ok xin cảm ơn
+      - thanks em
+      - Cảm ơn e
+      - Cảm ơn
+      - thanks bạn
+      - Anh cảm ơn em nha
+      - cám ơn bạn
+      - thanks e
+      - cám ơn bạn
+      - Ok cảm ơn b
+      - cảm ơn b
+      - ok mình cảm ơn
+      - mình cảm ơn
+      - thanks
+      - mình cảm ơn
+      - ok thanks
+      - mình cám ơn
+      - mình cảm ơn
+      - Cảm ơn bạn
+      - cảm ơn
+      - chị cảm ơn
+      - uki nhé
+      - uki
+      - ukie
+      - uki e
+      - uki bot
+      - ô kê
+      - ô kê em
+      - ô kê bot
+      - okee
+      - okeee
+      - okii
+      - ukii
+
+responses:
+  utter_chitchat/chitchat_0:
+    - text: "VHT Logistics xin chào! Cảm ơn {call_name} đã liên hệ với chúng tôi. Công ty chúng tôi chuyên cung cấp dịch vụ vận chuyển hàng đóng container đường biển và đường bộ!"
+
+  utter_chitchat/chitchat_1:
+    - text: "VHT Logistics có thể giúp gì cho {call_name}?"
+
+  utter_chitchat/chitchat_2:
+    - text: "VHT Logistics rất vui đã hỗ trợ được {call_name}!"
+

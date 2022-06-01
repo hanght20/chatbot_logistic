@@ -1,0 +1,416 @@
+version: "2.0"
+
+nlu:
+  
+  - synonym: phụ phí nhiên liệu
+    examples: |
+      - phụ phí nhiên liệu
+      - phu phi nhien lieu
+      - FAF
+      - faf
+  - synonym: phụ phí tắc nghẽn cảng
+    examples: |
+      - phụ phí tắc nghẽn cảng
+      - phu phi tac nghen cang
+      - PCS
+      - pcs
+  - synonym: phụ phí nhiên liệu
+    examples: |
+      - phụ phí nhiên liệu
+      - phu phi nhien lieu
+      - FAF
+      - faf
+  - synonym: phụ phí tắc nghẽn cảng
+    examples: |
+      - phụ phí tắc nghẽn cảng
+      - phu phi tac nghen cang
+      - PCS
+      - pcs
+  - intent: ask_product
+    examples: |
+      - công ty vận chuyển những mặt hàng gì
+      - Bên e vận chuyển mặt hàng gì
+      - Cty có thể vận chuyển loại hàng gì
+      - Có thể vận chuyển loại hàng nào
+      - Tôi có thể gửi những loại hàng gì
+      - Có thể gửi những loại hàng nào
+      - A có thể gửi đi những mặt hàng nào
+      - Tôi muốn vận chuyển [đường bộ](shipping)
+      - A muốn vận chuyển hàng theo [đường biển](shipping)
+      - Vận chuyển hàng [đường bộ](shipping) gồm những loại hàng gì
+      - Vận chuyển hàng [đường biển](shipping) gồm những loại hàng gì
+      - ben e van chuyen nhung mat hang gi
+      - anh co the gui nhung loại mat hang gi
+      - co the gui nhung mat hang gi
+      - Được phép vận chuyển loại hang gi
+      - Mình có thể gửi đi loại hàng gì
+      - Bên công ty có thể vận chuyển loại hàng gì
+      
+  - intent: ask_product_define
+    examples: |
+      - [hàng nhạy cảm](product) là gì
+      - Toi muon hoi ve [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"}
+      - [hàng máy móc](product) là gì
+      - thong tin ve loai [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - [hàng nguyên pin](product) là gì
+      - Cho anh hoi [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"} la gi
+      - [hàng lô thường](product) là gì
+      - [hang lo thuong]{"entity":"product","value":"hàng lô thường"} la gi
+      - [hàng lẻ thông thường](product) là gì
+      - [hang le thong thuong]{"entity":"product","value":"hàng lẻ thông thường"} la gi
+      - [hàng linh kiện](product) là gì
+      - [hang linh kien]{"entity":"product","value":"hàng linh kiện"}
+      - [hàng thương hiệu](product) là gì
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"}
+      - [hàng nguyên container](product) là gì
+      - t muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - [tờ khai hải quan](product) là gì
+      - [THC](product) là viết tắt của từ gì
+      - như nào là [tờ khai hải quan](product)
+      - Định nghĩa [tờ khai hải quan](product) 
+      - The nao la [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"}
+      - định nghĩa [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - Thế nào là [hàng nhạy cảm](product)
+      - [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"} la gi
+      - cho a hỏi về [hàng nhạy cảm](product)
+      - cho anh hỏi thế nào là [hàng nhạy cảm](product)
+      - the nao la [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"}
+      - Cho anh hoi [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"} la gi
+      - Định nghĩa [hàng nhạy cảm](product)
+      - dinh nghia [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"}
+      - Đn [hàng nhạy cảm](product)
+      - dn [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"}
+      - Cho em hỏi [hàng nhạy cảm](product) là như thế nào
+      - Cho em hỏi [hàng nhạy cảm](product) là ntn
+      - Cho e hỏi [hàng nhạy cảm](product) là như thế nào
+      - Cho e hoi [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"} la ntn
+      - Cho em hoi [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"} la nhu the nao
+      - Tôi muốn hỏi [hàng nhạy cảm](product) là gì
+      - Cho tôi hỏi [hàng nhạy cảm](product) là gì
+      - [hàng nhạy cảm](product)
+      - [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"}
+      - [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - [hàng máy móc](product)
+      - [hàng máy móc](product) là sao
+      - Cho anh hỏi về [hàng máy móc](product)
+      - Anh muốn hỏi về [hàng máy móc](product)
+      - Cho tôi hỏi [hàng máy móc](product) là gì
+      - Cho a hỏi [hàng máy móc](product) là như thế nào
+      - Cho anh hỏi [hàng máy móc](product) là ntn
+      - Anh muon hoi ve [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - a muon hoi [hang may moc]{"entity":"product","value":"hàng máy móc"} la gi
+      - Cho t hoi [hang may moc]{"entity":"product","value":"hàng máy móc"} la gi
+      - Cho a hoi [hang may moc]{"entity":"product","value":"hàng máy móc"} la gi
+      - Định nghĩa [hàng máy móc](product)
+      - Dinh nghia [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - dn [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - [hang may moc]{"entity":"product","value":"hàng máy móc"} la gi
+      - em muốn hỏi [hàng máy móc](product) là gì
+      - Cho em hỏi [hàng máy móc](product) là gì
+      - cho e hoi [hang may moc]{"entity":"product","value":"hàng máy móc"} la gi
+      - [hàng nguyên pin](product)
+      - [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"}
+      - Định nghĩa [hàng nguyên pin](product) 
+      - dinh nghia [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"}
+      - Thế nào là [hàng nguyên pin](product)
+      - dn [hàng nguyên pin](product)
+      - dn [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"}
+      - Cho anh hỏi [hàng nguyên pin](product) là gì
+      - cho e hoi [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"} la gi
+      - cho em hoi [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"} la gi
+      - Anh muốn hỏi [hàng nguyên pin](product)
+      - Anh muon hoi [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"}
+      - a muon hoi [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"} la gi
+      - [hàng thương hiệu](product) 
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - [hàng thương hiệu](product) là như thế nào
+      - Định nghĩa [hàng thương hiệu](product) 
+      - Cho anh hỏi [hàng thương hiệu](product) là gì
+      - Cho em hỏi [hàng thương hiệu](product) là ntn
+      - [hàng thương hiệu](product) là như thế nào
+      - Em muốn hỏi về [hàng thương hiệu](product) 
+      - Anh muốn hỏi về [hàng thương hiệu](product) 
+      - t muốn hỏi [hàng thương hiệu](product) 
+      - e muốn hỏi về [hàng thương hiệu](product) 
+      - [hàng thương hiệu](product) là ntn
+      - tôi muốn hỏi [hàng thương hiệu](product) là gì
+      - thế nào là [hàng thương hiệu](product) 
+      - [hàng thương hiệu](product) 
+      - dinh nghia [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"}
+      - Anh muon hoi ve [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"}
+      - Em muon hoi ve [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"}
+      - Em muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Em muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la nhu the nao
+      - Anh muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Anh muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la ntn
+      - A muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - E muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la nhu the nao
+      - E muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la ntn
+      - A muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la ntn
+      - Cho anh hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Cho em hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la ntn      
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la nhu the nao
+      - [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Cho toi hoi ve [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Cho t hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Toi muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - T muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - Em muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - E muon hoi [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} la gi
+      - [hàng nguyên container](product)
+      - [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"}
+      - [hàng nguyên container](product) là gì
+      - Định nghĩa [hàng nguyên container](product)
+      - dinh nghia [hàng nguyên container](product)
+      - [hàng nguyên container](product) là như thế nào
+      - Anh muốn hỏi về [hàng nguyên container](product)
+      - Anh muốn hỏi [hàng nguyên container](product) là gì
+      - Em muốn hỏi [hàng nguyên container](product) là gì
+      - Anh muốn hỏi [hàng nguyên container](product) là gì
+      - e muốn hỏi [hàng nguyên container](product) là gì
+      - Em muốn hỏi [hàng nguyên container](product) là gì
+      - Anh muốn hỏi [hàng nguyên container](product) là ntn
+      - E muốn hỏi [hàng nguyên container](product) là gì
+      - Anh muốn hỏi [hàng nguyên container](product) là như thế nào
+      - Tôi muốn hỏi [hàng nguyên container](product) là gì
+      - T muốn hỏi [hàng nguyên container](product) là gì
+      - Anh muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la gi
+      - Em muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la gi
+      - Toi muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la gi
+      - Anh muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - Toi muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - Em muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - t muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la như thế nào
+      - Cho anh hoi ve [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - Cho em hoi ve [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - Cho toi hoi ve [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la nhu the nao
+      - Cho toi hoi ve [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - Cho t hoi ve [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
+      - [hàng phổ thông](product)
+      - [hàng phổ thông](product) là gì
+      - [hang pho thong]{"entity":"product","value":"hàng phổ thông"}
+      - [hang pho thong]{"entity":"product","value":"hàng phổ thông"} la gi
+      - [hàng điện tử](product)
+      - [hang dien tu]{"entity":"product","value":"hàng điện tử"}
+      - [hang dien tu]{"entity":"product","value":"hàng điện tử"} la gi
+      - [mỹ phẩm, thực phẩm](product)
+      - [mỹ phẩm, thực phẩm](product) là gì
+      - [my pham]{"entity":"product","value":"mỹ phẩm, thực phẩm"}
+      - [phụ tùng vật tư](product)
+      - [phụ tùng vật tư](product) là gì
+      - [linh kiện điện tử](product)
+      - [linh kiện điện tử](product) là gì
+      - [hàng nặng](product)
+      - [hàng nặng](product) là gì
+      - [hàng siêu nặng](product)
+      - [hàng siêu nặng](product) là gì
+      - [tờ khai hải quan](product) 
+      - [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"}
+      - Định nghĩa [tờ khai hải quan](product) 
+      - Cho anh hỏi [tờ khai hải quan](product) là gì
+      - Cho em hỏi [tờ khai hải quan](product) là gì
+      - Cho tôi hỏi [tờ khai hải quan](product) là gì
+      - Cho em hỏi về [tờ khai hải quan](product) là như thế nào
+      - Cho em hỏi về [tờ khai hải quan](product) là ntn
+      - Cho t hỏi [tờ khai hải quan](product) là gì
+      - Cho t hỏi [tờ khai hải quan](product) là ntn
+      - Cho anh hỏi về [tờ khai hải quan](product)
+      - Cho em hỏi về [tờ khai hải quan](product)
+      - Cho tôi hỏi về [tờ khai hải quan](product)
+      - Cho toi hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"}
+      - Cho toi hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - Cho em hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - Cho anh hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - Cho t hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - Cho toi hoi ve [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - Anh muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - em muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - toi muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - A muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la gi
+      - A muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la nhu the nao
+      - E muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la nhu the nao
+      - Toi muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la nhu the nao
+      - Em muon hoi [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"} la nhu the nao
+      - [cảng chuyển tải](product)
+      - [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - [cảng chuyển tải](product) là gì
+      - thế nào là [cảng chuyển tải](product)
+      - định nghĩa [cảng chuyển tải](product)
+      - Cho anh hỏi [cảng chuyển tải](product) là gì
+      - cho em hỏi [cảng chuyển tải](product) là gì
+      - cho tôi hỏi [cảng chuyển tải](product) là gì
+      - cho em hỏi [cảng chuyển tải](product) là gì
+      - cho e hỏi [cảng chuyển tải](product) là gì
+      - cho a hỏi [cảng chuyển tải](product) là gì
+      - cho t hỏi [cảng chuyển tải](product) là gì
+      - Tôi muốn hỏi về [cảng chuyển tải](product)
+      - Anh muốn hỏi về [cảng chuyển tải](product)
+      - em muốn hỏi về [cảng chuyển tải](product)
+      - [cảng chuyển tải](product) là như thế nào
+      - [cảng chuyển tải](product) là ntn
+      - [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la nhu the nao
+      - [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la ntn
+      - dinh nghia [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - dn [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - cho anh hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - cho a hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - cho em hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - cho e hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - cho toi hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - cho t hoi [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"} la gi
+      - anh muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - a muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - e muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - em muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - toi muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      - t muon hoi ve [cang chuyen tai]{"entity":"product","value":"cảng chuyển tải"}
+      
+  - intent: ask_surcharge
+    examples: |
+      - [phi nang ha]{"entity":"product","value":"phi nang ha"} la gi
+      - [phu phi xep do](product) la nhu nao
+      - thế nào là [phí nâng hạ](product)
+      - [pcs](product) là gì
+      - [phi nang ha]{"entity":"product","value":"phí nâng hạ"} la nhu nao
+      - [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - [phí nâng hạ](product) 
+      - [phí nâng hạ](product) la gì
+      - Định nghĩa [phí nâng hạ](product) 
+      - dn [phí nâng hạ](product) 
+      - Cho anh hỏi [phí nâng hạ](product) là gì
+      - Cho em hỏi [phí nâng hạ](product) là gì
+      - Cho tôi hỏi [phí nâng hạ](product) là gì
+      - cho a hỏi về [phí nâng hạ](product)
+      - cho e hỏi về [phí nâng hạ](product)
+      - cho tôi hỏi về [phí nâng hạ](product)
+      - Anh muốn hỏi về  [phí nâng hạ](product)
+      - Em muốn hỏi về [phí nâng hạ](product)
+      - A muốn hỏi về [phí nâng hạ](product)
+      - e muốn hỏi về [phí nâng hạ](product)
+      - [phi nang ha]{"entity":"product","value":"phí nâng hạ"} la gi
+      - dinh nghia [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - dn [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - the nao la [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - em muon hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - anh muon hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - cho e hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - cho anh hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - t muon hoi [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - a muon hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - [phi nang ha]{"entity":"product","value":"phí nâng hạ"} la gi
+      - e muon hoi ve [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - [phi nang ha]{"entity":"product","value":"phí nâng hạ"}
+      - cho toi hoi [phi nang ha]{"entity":"product","value":"phí nâng hạ"} la gi\
+      - [phu phi nhien lieu](product)
+      - [FAF](product)
+      - [faf](product)
+      - [phụ phí nhiên liệu](product) là gì
+      - [phí nâng hạ](product) là gì
+      - [phụ phí tắc nghẽn cảng](product) là gì
+      - [phụ phí xếp dỡ](product) là gì
+      - [FAF](product) là viết tắt của từ gì
+      - [PCS](product) là viết tắt của từ gì
+      - [phu phi nhien lieu](product) la gi
+      - cho anh hoi [phu phi nhien lieu](product) la gi
+      - cho a hoi [phu phi nhien lieu](product) la gi
+      - cho em hoi [phu phi nhien lieu](product) la gi
+      - cho e hoi [phu phi nhien lieu](product) la gi
+      - cho toi hoi [phu phi nhien lieu](product) la gi
+      - cho t hoi [phu phi nhien lieu](product) la gi
+      - cho anh hoi [FAF](product) la gi
+      - cho a hoi [FAF](product) la gi
+      - cho em hoi [FAF](product) la gi
+      - cho e hoi [FAF](product) la gi
+      - cho toi hoi [FAF](product) la gi
+      - cho t hoi [FAF](product) la gi
+      - anh muon hoi ve [phu phi nhien lieu](product) la gi
+      - a muon hoi ve [phu phi nhien lieu](product) la gi
+      - em muon hoi ve [phu phi nhien lieu](product) la gi
+      - e muon hoi ve [phu phi nhien lieu](product) la gi
+      - toi muon hoi ve [phu phi nhien lieu](product) la gi
+      - t muon hoi ve [phu phi nhien lieu](product) la gi
+      - [phụ phí nhiên liệu](product) là như thế nào
+      - [phụ phí nhiên liệu](product) là ntn
+      - [FAF](product) là gì
+      - định nghĩa [FAF](product)
+      - định nghĩa [phụ phí nhiên liệu](product)
+      - dinh nghia [phu phi nhien lieu](product)
+      - dn [phu phi nhien lieu](product)
+      - đn [phụ phí nhiên liệu](product)
+      - định nghĩa [FAF](product)
+      - dinh nghia [FAF](product)
+      - [FAF](product) la gi
+      - [FAF](product) la viet tat cua tu nao
+      - [FAF](product) viet tat cua tu gi
+      - [FAF](product) là viết tắt của từ nào
+      - [FAF](product) viết tắt của từ gì
+      - [phụ phí tắc nghẽn cảng](product)
+      - [phu phi tac nghen cang](product)
+      - [pcs](product)
+      - [PCS](product)
+      - [phụ phí tắc nghẽn cảng](product) là gì
+      - định nghĩa [phụ phí tắc nghẽn cảng](product)
+      - dn [phụ phí tắc nghẽn cảng](product)
+      - dinh nghia [phụ phí tắc nghẽn cảng](product)
+      - [PCS](product) là gì
+      - [PCS](product) viết tắt của từ gì
+      - [PCS](product) la gi
+      - dinh nghia [PCS](product)
+      - định nghĩa [PCS](product)
+      - [PCS](product) la viet tat cua tu nao
+      - [phụ phí tắc nghẽn cảng](product)
+      - [phu phi tac nghen cang](product)
+      - [pcs](product)
+      - [PCS](product)
+      - [phụ phí tắc nghẽn cảng](product) là gì
+      - định nghĩa [phụ phí tắc nghẽn cảng](product)
+      - dn [phụ phí tắc nghẽn cảng](product)
+      - [phụ phí tắc nghẽn cảng](product)
+      - thế nào là [phụ phí tắc nghẽn cảng](product)
+      - [phụ phí tắc nghẽn cảng](product) 
+      - [phu phi tac nghen cang](product) la gi
+      - dinh nghia [phu phi tac nghen cang](product)
+      - [phu phi tac nghen cang](product) la nhu the nao
+      - [pcs](product) là gì
+      - [pcs](product) la gi
+      - [pcs](product) viết tắt của từ nào
+      - [pcs](product) là viết tắt của từ gì
+      - [pcs](product) la viet tat cua tu nao
+      - định nghĩa [PCS](product)
+      
+  - intent: ask_price
+    examples: |
+      - cho tôi xin bảng giá vận chuyển [hàng nhạy cảm](product)
+      - [hàng thương mại điện tử](product) giá như nào
+      - giá vận chuyển [hàng nguyên pin](product)
+      - [hàng nhạy cảm](product) giá ntn
+      - Gia van chuyen [hang may moc]{"entity":"product","value":"hàng máy móc"}
+      - tôi muốn vận chuyển [hàng nguyên pin](product) thì trả phí bao nhiêu
+      - phí vận chuyển [hàng máy móc](product) là bao nhiêu
+      - Tôi muốn vận chuyển [hàng nguyên pin](product) theo đường biển thì phí bao nhiêu
+      - Phí vận chuyển đường biển [hàng nhạy cảm](product) 
+      - Vận chuyển đường bộ [hàng nguyên container](product)
+      - Phi van chuyen [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} bao nhieu
+      - Tôi muốn vận chuyển [hàng thương hiệu](product) thì phí là bao nhiêu
+      - Vận chuyển [hàng nhạy cảm](product) giá thế nào
+      - van chuyen [hang nhay cam]{"entity":"product","value":"hàng nhạy cảm"} gia the nao
+      - Vận chuyển [hàng máy móc](product) giá thế nào
+      - van chuyen [hang may moc]{"entity":"product","value":"hàng máy móc"} gia the nao
+      - vận chuyển [hàng nguyên pin](product) giá thế nào
+      - van chuyen [hang nguyen pin]{"entity":"product","value":"hàng nguyên pin"} gia the nao
+      - vận chuyển [hàng thương hiệu](product) giá như thế nào
+      - van chuyen [hang thuong hieu]{"entity":"product","value":"hàng thương hiệu"} gia the nao
+      - vận chuyển [hàng nguyên container](product) giá như nào
+      - van chuyen [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} gia the nao
+      - giá vận chuyển [hàng phổ thông](product) là bao nhiêu
+      - giá vận chuyển [hàng điện tử](product) là bao nhiêu
+      - giá vận chuyển [mỹ phẩm, thực phẩm](product) là bao nhiêu
+      - giá vận chuyển [phụ tùng vật tư](product) là bao nhiêu
+      - giá vận chuyển [linh kiện điện tử](product) là bao nhiêu
+      - giá vận chuyển [hàng nặng](product) là bao nhiêu
+      - giá vận chuyển [hàng siêu nặng](product) là bao nhiêu
+
+  

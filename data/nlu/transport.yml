@@ -1,0 +1,161 @@
+version: "2.0"
+
+nlu:
+  - synonym: nhập khẩu
+    examples: |
+      - nhập khẩu
+      - nhap khau
+      - nk
+      - nhap hang
+      - nhập hàng
+      - nhap
+      - nhập
+      
+  - synonym: xuất khẩu
+    examples: |
+      - xuất khẩu 
+      - xuat khau
+      - xk
+      - xuất hàng
+      - xuat hang
+      - xuat
+      - xuất
+
+  - intent: transport_register
+    examples: |
+      - Tôi muốn [nhập khẩu](transport_type) hàng
+      - Tôi muốn [xuất khẩu](transport_type) hàng đi
+      - cho tôi đăng kí [nhập khẩu](transport_type) hàng
+      - Để [xuất khẩu](transport_type) hàng hóa tôi phải làm thế nào
+      - [nhập hàng](transport_type) thì làm ntn
+      - toi muon [nhap khau](transport_type) hang
+      - toi muon [xuat khau](transport_type) hang 
+      - Cho t đăng kí [nhập hàng](transport_type)
+      - t muốn [nhập hàng](transport_type)
+      - t muốn [xuất khẩu](transport_type) hàng hóa
+      - Muốn [nhập khẩu](transport_type) hàng hóa làm thế nào
+      - muốn [xuất hàng](transport_type) làm ntn
+      - T muốn đk [xuất khẩu](transport_type) hàng
+      - t muốn đăng kí [xuất hàng](transport_type)
+      - [nhập khẩu](transport_type) làm thế nào
+      - [xuất hàng](transport_type) làm thế nào
+      - Tôi muốn đăng kí [nhập hàng](transport_type) 
+      - t muon dk [nhap khau](transport_type)
+      - t muon dk [xuat khau](transport_type)
+      - Cho toi dang ki [xuat](transport_type) hang
+      - Cho toi dang ki [nhap khau](transport_type) hang
+      - Anh muốn đăng kí [nhập khẩu](transport_type)
+      - A muốn đăng kí [nhập khẩu](transport_type)
+      - Anh muốn đki [nhập khẩu](transport_type)
+      - a muon dang ki [nhap khau](transport_type)
+      - Em muon dang ki [nhap khau](transport_type)
+      - [nhap khau](transport_type)
+      - em muon dang ki [nhap khau](transport_type)
+      - [nhập khẩu](transport_type)
+      - tôi muốn đăng kí [xuất khẩu](transport_type)
+      - t muốn đăng kí [xuất khẩu](transport_type)
+      - [xuất khẩu](transport_type)
+      - cho tôi đăng kí [xuất khẩu](transport_type) hàng
+      - anh muốn [nhập](transport_type) hàng về
+      - em muốn [nhập](transport_type) hàng về
+      - tôi muốn [nhập](transport_type) hàng về
+      - anh muốn [xuất](transport_type) hàng đi
+      - Em muốn [xuất](transport_type) hàng đi
+      - Tôi muốn [xuất](transport_type) hàng đi
+      - anh muon [xuat](transport_type) hang di
+      - em muon [xuat](transport_type) hang di
+      - toi muon [xuat](transport_type) hang di
+      - anh muon [nhap](transport_type) hang ve
+      - em muon [nhap](transport_type) hang ve
+      - t muon [nhap](transport_type) hang ve
+     
+
+  - intent: ask_register
+    examples: |
+      - Tôi muốn [nhập khẩu](transport_type) quần áo
+      - tôi muốn [nhập khẩu](transport_type) nước hoa
+      - Cho tôi [xuất khẩu](transport_type) điện thoại và linh kiện điện tử
+      - [xuất khẩu](transport_type) giày dép
+      - [xuất khẩu](transport_type) thủy sản
+      - t muốn [xk](transport_type) cà phê
+      - Anh muốn [nhập khẩu](transport_type) túi xách
+      - [nhập khẩu](transport_type) quần áo
+      - Tôi muốn [xuất khẩu](transport_type) dt và linh kiện điện tử
+      - [xuất khẩu](transport_type) dt và linh kiện điện tử
+      - [xuất khẩu](transport_type) cà phê
+      - t muốn [nhập khẩu](transport_type) quần áo
+      - cho mình [xuất khẩu](transport_type) giày dép
+      - [nhập khẩu](transport_type) nước hoa
+      - [xuất khẩu](transport_type) điện thoại và linh kiện điện tử
+      - A muốn [nhập khẩu](transport_type) túi xách
+      - [xuat khau](transport_type) giay dep
+      - [xuat khau](transport_type) thuy san
+      - [nhap khau](transport_type) tui xach
+      - A muốn [xk](transport_type) cafe
+      - [nhap khau](transport_type) quan ao
+      - [xk](transport_type) giay dep
+      - Toi muon [nhap](transport_type) tui xach
+      - [nhập](transport_type) quần áo
+      - Cho t [nhập](transport_type) nước hoa
+      - t muốn [xuất khẩu](transport_type) thủy sản
+      - Cho tôi [xk](transport_type) quần áo
+      - Toi muon [xuat khau](transport_type) ca phe
+      - Anh muon [xuat](transport_type) giay dep
+      - em muon [xuat](transport_type) giay dep
+      - Toi muon [xuat](transport_type) giay dep
+      - Cho anh [nhap](transport_type) tui xach
+      - [nk](transport_type) nuoc hoa
+      - Toi muon [nhap](transport_type) tui xach
+      
+
+  - intent: ask_infomation
+    examples: |
+      - Tôi cần phải cung cấp thông tin gì
+      - Để gửi hàng đi tôi cần những thông tin nào
+      - tôi phải cung cấp thông tin gì khi muốn vận chuyển
+      - a có phải cung cấp giấy tờ gì k
+      - Có cần giấy tờ gì không
+      - Cung cấp những giấy tờ gì
+      - Cần phải nộp những giấy tờ gì
+      - Có phải nộp giấy tờ gì không
+      - Có cần nộp giấy tờ gì k
+      - Giấy tờ cần phải nộp là gì
+      - A phải nộp giấy tờ gì k
+      - Tôi cần nộp những giấy tờ gì
+      - t cần nộp những giấy tờ gì k
+      - Giấy tờ phải nộp là gì
+      - Anh có cần nộp giấy tờ gì k
+      - Tôi có cần nộp giấy tờ gì k
+      - Anh phải nộp giấy tờ gì
+      - Tôi phải nộp giấy tờ gì
+      - Có phải nộp giấy tờ gì k 
+      - Anh có phải nộp giấy tờ gì k
+      - Tôi có phải nộp giấy tờ gì k
+      - T can phai cung cap thong tin gi
+      - De gui hang di t can nhung thong tin nao
+      - t phai cung cap thong tin gi khi muon van chuyen
+      - Co can nop giay to gi khong
+      - Co phai nop giay to gi k
+      - Giay to can phai nop co nhung gi
+      - Cung cap nhung giay to gi 
+      - anh co can nop giay to gi k
+      - toi co can nop giay to gi khong
+      - Giay to can phai nop la gi
+      - Co can giay to gi khong
+      - t co can nop giay to gi k
+      - Anh phai nop giay to gi
+      - Toi phai nop giay to gi
+      - Anh có phải cung cấp thông tin gì không
+      - Em có cần phải cung cấp thông tin gì k
+      - T có phải cung cấp thông tin gì k
+      - Toi can phai cung cap thong tin gi
+      - Anh can phai cung cap thong tin gi
+      - can phai nop nhung giay to gi
+      - Giay to phai nop la gi
+      - Toi can phai cung cap thong tin gi
+      - A can phai cung cap thong tin gi
+      - T co can nop giay to gi khong
+      - A co can nop giay to gi khong
+      - Giay to phai nop la gi
+      - T phai nop giay to nao k
+      

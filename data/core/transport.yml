@@ -1,0 +1,30 @@
+version: "2.0"
+
+stories:
+  - story: transport register 
+    steps:
+      - intent: transport_register
+      - action: utter_product_info
+
+  - story: ask register
+    steps:  
+      - intent: ask_register
+      - action: utter_product_info
+      
+rules:
+  - rule: activate form
+    steps:
+      - intent: ask_infomation
+      - action: utter_infomation
+      - action: customer_form
+      - active_loop: customer_form
+
+  - rule: submit form
+    condition:
+      - active_loop: customer_form
+    steps:
+      - action: customer_form
+      - active_loop: null
+      - slot_was_set:
+        - requested_slot: null
+      - action: utter_submit

@@ -1,0 +1,60 @@
+version: "2.0"
+
+nlu:
+  - intent: procedure_import
+    examples: |
+      - Quy trình một lô hàng [nhập khẩu](transport_type) như thế nào ?
+      - Quy trình 1 lô hàng [nhập khẩu](transport_type) ntn
+      - quy trình một lô hàng [nhập khẩu](transport_type) như thế nào
+      - quy trinh mot lo hang [nhap khau](transport_type) nhu the nao
+      - Quy trinh 1 lo hang [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} ntn
+      - Các bước [nhập khẩu](transport_type) một lô hàng thế nào
+      - cac buoc [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} mot lo hang ntn
+      - Cac buoc [nhap khau]{"entity":"transport_type","value":"nhập khẩu"} 1 lo hang the nao
+      - quy trình [nhập]{"entity":"transport_type","value":"nhập khẩu"} 1 đơn hàng thế nào
+      - Quy trinh [nhap]{"entity":"transport_type","value":"nhập khẩu"} mot don hang the nao
+      - Quy trinh [nhap]{"entity":"transport_type","value":"xuất khẩu"} mot lo hang ntn
+      - Quy trình [nhập]{"entity":"transport_type","value":"xuất khẩu"} một lô hàng như thế nào
+      - Quy trình [nhập]{"entity":"transport_type","value":"xuất khẩu"} một lô hàng ntn
+
+
+  - intent: procedure_export
+    examples: |
+      - Quy trình một lô hàng [xuất khẩu](transport_type) như thể nào ?
+      - Quy trình [xuất khẩu](transport_type) một lô hàng như thế nào
+      - Quy trình một lô hàng [xuất khẩu](transport_type) thế nào
+      - quy trình 1 lô hàng [xuất khẩu](transport_type) như thế nào
+      - quy trinh mot lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} nhu the nao
+      - quy trình 1 lô hàng [xuất khẩu](transport_type) ntn
+      - Các bước [xuất khẩu](transport_type) 1 lô hàng
+      - cac buoc [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} mot lo hang
+      - Quy trinh 1 lo hang [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} ntn
+      - Quy trình một lô hàng [xuất khẩu](transport_type) ntn
+      - Các bước [xuất khẩu](transport_type) 1 lô hàng thế nào
+      - Cac buoc [xuat khau]{"entity":"transport_type","value":"xuất khẩu"} lo hang the nao
+      - quy trình [xuất]{"entity":"transport_type","value":"xuất khẩu"} một lô hàng thế nào
+      - quy trình [xuất]{"entity":"transport_type","value":"xuất khẩu"} một lô hàng ntn
+      - Quy trinh [xuat]{"entity":"transport_type","value":"xuất khẩu"} mot lo hang ntn
+      - Quy trinh [xuat]{"entity":"transport_type","value":"xuất khẩu"} mot lo hang nhu the nao
+
+      - 
+
+responses:
+  utter_procedure_import:
+    - text: "- Kiểm tra bộ chứng từ nhập khẩu (qua email)\n
+        - Nhận bộ chứng từ bản chính và tiến hành khai báo hải quan\n
+        - Gửi thông báo nộp thuế nhập khẩu cho khách hàng\n
+        - Liên hệ hãng tàu để nhận Lệnh Giao Hàng (D.O)\n
+        - Ra cảng nộp bộ hồ sơ bản gốc cho hải quan XNK\n
+        - Làm các thủ tục kiểm hóa với hải quan, đóng tiền, giao nhận hàng với thương vụ cảng\n
+        - Điều xe có tải trọng phù hợp vào lấy hàng đưa về kho khách hàng."
+
+  utter_procedure_export:
+    - text: "- Xác định ngày đóng hàng vào container\n
+        – Book tàu\n
+        -  Cung cấp thông tin lô hàng (Hợp đồng, Commercial  invoice, Packing list)\n
+        – Đóng hàng\n
+        – Khai báo hải quan XNK\n
+        -  Hãng tàu phát hành BL\n
+        – Kiểm tra lại BL và bộ chứng từ\n
+        - Gửi chứng từ cho người mua hàng (người nhập khẩu) để họ hoàn thành thủ tục lấy hàng tại đầu nước ngoài."

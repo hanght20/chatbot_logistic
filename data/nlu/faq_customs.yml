@@ -1,0 +1,370 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/faq_customs_1
+    examples: |
+      - Thông quan là gì?
+      - thông quan
+      - Cho tôi hỏi thông quan là gì?
+      - t muốn hỏi về thông quan
+      - Tôi muốn hỏi về thông quan
+      - cho t hỏi thông quan là gì?
+      - thong quan la gi
+      - thong quan
+      - toi muon hoi ve thong quan
+      - cho t hoi thong quan la gì?
+      - Định nghĩa thông quan
+      - dinh nghia thong quan
+      - Đn thông quan
+      - dn thông quan
+      - Như nào là thông quan
+      - nhu nao la thong quan
+      - Thông quan là ntn
+      - Thông quan là như thế nào
+      - thong quan la nhu the nao
+      - The nao la thong quan
+      - Thế nào là thông quan
+      - thong quan la ntn
+      - cho toi hoi thong quan la gi
+      - Anh muốn hỏi thông quan là gì
+      - A muốn hỏi thông quan là gì
+      - Cho anh hỏi thông quan là gì
+      - Cho a hỏi thông quan là gì
+      - THÔNG QUAN LÀ GÌ
+      - ĐỊNH NGHĨA THÔNG QUAN
+      - THẾ NÀO LÀ THÔNG QUAN
+      - CHO ANH HỎI THÔNG QUAN LÀ GÌ
+      - THONG QUAN LA GI
+      - DINH NGHIA THONG QUAN
+      - THE NAO LA THÔNG QUAN 
+      - ANH MUỐN HỎI THÔNG QUAN LÀ GÌ
+      - ANH MUON HOI THONG QUAN LA GI
+      - THÔNG QUAN LÀ NHƯ THẾ NÀO
+      - THÔNG QUAN LÀ NTN
+      - THONG QUAN LA NTN
+      - DN THONG QUAN
+      - NHU NAO LA THONG QUAN
+      - TÔI MUỐN HỎI VỀ THÔNG QUAN
+      - TOI MUON HOI VE THONG QUAN
+      - T MUON HOI VE THONG QUAN
+      - THÔNG QUAN LÀ GÌ
+      - THONG QUAN LA NHU THE NAO
+      - CHO A HOI THONG QUAN LA GI
+      - CHO ANH HOI THONG QUAN LA GI
+      - cho chị hỏi thông quan là gì
+      - Cho c hỏi thông quan là gì
+      - chị muốn hỏi thông quan là gì
+      - c muốn hỏi thông quan là gì
+      - Cho t hỏi thông quan là gì
+      - toi muon hoi ve thong quan
+      - t muon hoi ve thong quan
+
+
+  - intent: faq/faq_customs_2
+    examples: |
+      - các bước làm thủ tục hải quan?
+      - thủ tục hải quan 
+      - quy trình của thủ tục hải quan
+      - tôi muốn hỏi các bước  làm thủ tục hải quan
+      - t muon hoi cac buoc lam thu tuc hai quan?
+      - thu tuc hai quan
+      - quy trinh cua thu tuc hai quan
+      - cac bước of thủ tục hải quan
+      - quy trinh lam thu tuc hai quan
+      - quy trinh of thu tuc hai quan
+      - quy trình of tt hải quan
+      - tt hải quan 
+      - thu tuc hai quan
+      - cac buoc lam thu tuc hai quan
+      - t muốn hỏi các bước làm thủ tục hải quan
+      - Anh muốn hỏi về thủ tục hải quan 
+      - a muốn hỏi về thủ tục hải quan
+      - Cho a hỏi về thủ tục hải quan
+      - Cho anh hỏi về thủ tục hải quan
+      - THỦ TỤC HẢI QUAN
+      - CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+      - QUY TRÌNH CỦA THỦ TỤC HẢI QUAN
+      - TÔI MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+      - T MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+      - CHO ANH HỎI VỀ THỦ TỤC HẢI QUAN
+      - CHO A HỎI VỀ THỦ TỤC HẢI QUAN
+      - CAC BUOC LAM THU TUC HAI QUAN
+      - ANH MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+      - CHO ANH HỎI QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+      - QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+      - CHO CHỊ HỎI QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+      - EM MUỐN HỎI VỀ CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+      - QUY TRÌNH LÀM THỦ TỤC HẢI QUAN RA SAO
+      - QUY TRÌNH LÀM THỦ TỤC HẢI QUAN THẾ NÀO
+      - quy trình làm thủ tục hải quan thế nào
+      - quy trinh lam thu tuc hai quan the nao
+      - E MUON HOI CAC BUOC LAM THU TUC HAI QUAN
+      - QUY TRINH LAM THU TUC HAI QUAN
+      - CHO C HOI QUY TRINH LAM THU TUC HAI QUAN
+      - CHO A HOI QUY TRINH LAM THU TUC HAI QUAN
+      - quy trình lm thủ tục hải quan
+      - Quy trinh lm thu tuc hai quan
+      - Cho e hỏi về thủ tục hải quan
+      - Cho em hỏi về thủ tục hải quan
+      - Cho e hoi quy trinh lam thu tuc hai quan
+      - cho em hỏi quy trình làm thủ tục hải quan
+      - cho em hoi quy trinh lam thu tuc hai quan
+      - em muốn hỏi các bước làm thủ tục hải quan
+      - em muon hoi cac buoc lam thu tuc hai quan
+      - e muon hoi cac buoc lam thu tuc hai quan
+      - 
+  - intent: faq/faq_customs_3
+    examples: |
+      - hồ sơ hải quan gồm những gì?
+      - hồ sơ hải quan
+      - ho so hai quan co nhưng gi
+      - hs hai quan
+      - Hs hải quan gồm những gì
+      - hs hai quan gom nhung gi
+      - Hồ sơ hải quan bao gồm những gì
+      - Ho so hai quan co nhung gi
+      - Bộ hồ sơ hải quan có những giấy tờ gì
+      - Ho so hai quan co nhung giay to gi
+      - có những giấy tờ gì trong bộ hồ sơ hải quan
+      - Co giay to gi trong bo ho so hai quan
+      - Hồ sơ hải quan gồm có giấy tờ gì
+      - Hồ sơ hải quan bên em bao gồm những gì
+      - Hò sơ hải quan bên em có những gì
+      - ho so hai quan bên e co nhung gi
+      - Bo ho so hai quan gom co nhung giay to gi
+      - Cho anh hỏi về hồ sơ hải quan
+      - Cho a hỏi về hồ sơ hải quan
+      - CO NHUNG GIAY TO GI TRONG BO HO SO HAI QUAN
+      - CHO ANH HỎI VỀ BỘ HỒ SƠ HẢI QUAN
+      - cho a hoi ve bo ho so hai quan
+      - cho anh hoi ve bo ho so hai quan
+      - HỒ SƠ HẢI QUAN GỒM NHỮNG GÌ
+      - HỒ SƠ HẢI QUAN CÓ NHỮNG GÌ
+      - BỘ HỒ SƠ HẢI QUAN CÓ NHỮNG GIẤY TỜ GÌ
+      - HỒ SƠ HẢI QUAN BÊN EM CÓ NHỮNG GÌ
+      - CHO EM HỎI VỀ HỒ SƠ HẢI QUAN
+      - CHO A HỎI VỀ BỘ HỒ SƠ HẢI QUAN
+      - CÓ GIẤY TỜ GÌ TRONG BỘ HỒ SƠ HẢI QUAN
+      - HỒ SƠ HẢI QUAN GỒM CÓ GIẤY TỜ GÌ
+      - BO HO SO HAI QUAN GOM NHUNG GI
+      - BO HO SO HAI QUAN CO NHUNG GIAY TO GI
+      - HO SO HAI QUAN CO NHUNG GI
+      - CO GIAY TO GI TRONG BO HO SO HAI QUAN
+      - CHO EM HOI VE HO SO HAI QUAN
+
+
+  - intent: faq/faq_customs_4
+    examples: |
+      - Hải quan điện tử là thế nào?
+      - Hải quan điện từ là gì
+      - Hải quan điện tử
+      - hai quan dien tu
+      - Hai quan dien tu ntn
+      - hai quan dien tu la gi
+      - Như nào là hải quan điện tử
+      - hải quan dt
+      - Hải quan đt là gì
+      - hai quan dien tu la the nao?
+      - hqdt
+      - Định nghĩa hải quan điện tử
+      - Dinh nghia hai quan dien tu
+      - dn hai quan dien tu
+      - đn hải quan điện tử
+      - hải quan điện tử là như thế nào
+      - thế nào là hải quan điện tử
+      - Như nào là hải quan điện tử
+      - the nao la hai quan dien tu
+      - nhu nao la hai quan dien tu
+      - hải quan điện tử là thế nào
+      - Hải quan điện tử là ntn
+      - Hai quan dien tu la ntn
+      - ĐỊNH NGHĨA HẢI QUAN ĐIỆN TỬ
+      - HẢI QUAN ĐIỆN TỬ LÀ NHƯ THẾ NÀO
+      - THẾ NÀO LÀ HẢI QUAN ĐIỆN TỬ
+      - DN HẢI QUAN ĐIỆN TỬ
+      - HẢI QUAN ĐIỆN TỬ LÀ GÌ
+      - HẢI QUAN ĐIỆN TỬ LÀ THẾ NÀO
+      - HẢI QUAN ĐIỆN TỬ
+      - HAI QUAN DIEN TU
+      - THE NAO LA HAI QUAN DIEN TU
+      - DINH NGHIA HAI QUAN DIEN TU
+      - HAI QUAN DIEN TU LA NHU THE NAO
+      - HAI QUAN DIEN TU LA NTN
+      - HAI QUAN DIEN TU LA GI
+      - CHO ANH HỎI HẢI QUAN ĐIỆN TỬ LÀ GÌ
+      - CHO EM HỎI HẢI QUAN ĐIỆN TỬ LÀ GÌ
+      - CHO A HỎI HẢI QUAN ĐIỆN TỬ LÀ GÌ
+      - CHO E HỎI HẢI QUAN ĐIỆN TỬ
+      - cho anh hỏi về hải quan điện tử
+      - cho em hỏi về hải quan điện tử
+      - cho a hỏi về hải quan điện tử
+      - cho e hỏi về hải quan điện tử
+      - cho anh hoi ve hai quan dien tu
+      - cho em hoi ve hai quan dien tu
+      
+  - intent: faq/faq_customs_5
+    examples: |
+      - mã HS là gì?
+      - HS là gì?
+      - hs là gì
+      - hệ thống HS là gì
+      - HS
+      - ma hs hieu ntn
+      - Mã HS được hiểu là gì
+      - Ma hs dc hieu la gì
+      - ma HS duoc hieu la gi
+      - he thong hs la gi
+      - hệ thống Hs
+      - he thong HS
+      - mã hs hiểu như thế nào
+      - Định nghĩa hệ thống hs
+      - Dinh nghia he thong HS
+      - Thế nào là hệ thống HS
+      - The nao la he thong hs
+      - Hệ thống hs được hiểu như thế nào
+      - ma hs la gi
+      - He thong hs la gi
+      - dn hệ thống Hs
+      - dn he thong hs
+      - mã hs dc hiểu như thế nào
+      - ma hs dc hieu nhu the nao
+      - He thong hs duoc hieu nhu the nao
+      - hệ thống hs đc hiểu như thế nào
+      - Hệ thống hs được hiểu ntn
+      - Ma HS
+      - MA HS HIỂU NHƯ THẾ NÀO
+      - Ma HS hieu nhu the nao
+      - HỆ THỐNG HS LÀ GÌ
+      - THẾ NÀO LÀ MÃ HS
+      - Thế nào là mã HS
+      - the nao la ma hs
+      - ĐỊNH NGHĨA MÃ HS
+      - DINH NGHIA MA HS
+      - HỆ THỐNG HS ĐƯỢC HIỂU LÀ GÌ
+      - HỆ THỐNG HS ĐƯỢC HIỂU NHƯ THẾ NÀO
+      - HE THONG HS DUOC HIEU LA GI
+      - HE THONG HS DUOC HIEU NHU THE NAO
+      - HỆ THỐNG HS DDC HIỂU LÀ GÌ
+      - HỆ THỐNG HS ĐC HIỂU NHƯ THẾ NÀO
+      - MÃ HS LÀ GÌ
+      - ĐỊNH NGHĨA HỆ THỐNG HS
+      - HỆ THỐNG HS ĐƯỢC HIỂU NTN
+      - HE THONG HS DUOC HIEU NTN
+      - HỆ THỐNG HS DC HIỂU NTN
+      - HE THONG HS DC HIEU NTN
+      - THE NAO LA MA HS
+      - MÃ HS ĐƯỢC HIỂU NTN
+      - MÃ HS ĐƯỢC HIỂU NHƯ THẾ NÀO
+      - 
+
+  - intent: faq/faq_customs_6
+    examples: |
+      - kiểm tra chuyên ngành là gì?
+      - Kiểm tra chuyên ngành
+      - kt chuyên ngành là gì?
+      - Ktra chuyên ngành là gì?
+      - Thế nào là kiểm tra chuyên ngành
+      - thế nào là kt chuyên ngành
+      - thế nào là ktra chuyên ngành
+      - Kiểm tra chuyên ngành là ntn?
+      - Kt chuyên ngành là như thế nào?
+      - kt chuyên ngành là ntn
+      - kiem tra chuyen nganh
+      - kt chuyen nganh la ntn
+      - kt chuyen nganh la gi
+      - Định nghĩa kiểm tra chuyên ngành
+      - Dinh nghia kiem tra chuyen nganh
+      - Kiem tra chuyen nganh la nhu the nao
+      - kt chuyen nganh la ntn
+      
+  - intent: faq/faq_customs_7
+    examples: |
+      - MSDS là gì?
+      - MSDS là viết tắt của cụm từ nào?
+      - MSDS là viết tắt của từ gì
+      - Thế nào là MSDS
+      - Như nào là MSDS
+      - MSDS
+      - MSDS la gi
+      - the nao la msds
+      - Định nghĩa msds
+      - dinh nghia msds
+      - the nao la MSDS
+      - msds la viet tat cua cum tu nao
+      - Nhu nao la MSDS
+      - msds viết tắt của từ nào
+      - MSDS la viet tat cua tu nao
+      - 
+
+  - intent: faq/faq_customs_8
+    examples: |
+      - Hệ thống VNACCS/VCIS là gì?
+      - VNACCS/VCIS
+      - vnaccs
+      - vcis
+      - vnaccs/vcis
+      - he thong vnaccs la gì
+      - he thong vcis la gi
+      - VNACCS nghĩa là gì
+      - VNACCS/VCIS nghia la gì
+      - He thong VNACCS/VCIS la gì
+      - vnaccs nghia la gi
+      - vcis là gì
+      - VCIS nghĩa là gì
+      - định nghĩa VNACCS
+      - Định nghĩa VCIS
+      - Dinh nghia vnaccs
+      - dinh nghia vcis
+      
+responses:
+  utter_faq/faq_customs_1:
+    - text: "Là việc hải quan đồng ý cho hàng hóa được xuất nhập khẩu, sau khi đã dùng các nghiệp vụ cần thiết để \nkiểm tra hồ sơ, thực tế hàng hóa (nếu cần thiết)."
+
+  utter_faq/faq_customs_2:
+    - text: "Bước 1: Chuẩn bị bộ chứng từ hàng hóa\n
+        Bước 2: Chuẩn bị chữ ký số, đăng ký với Tổng cục hải quan\n
+        Bước 3: Cài đặt Phần mềm khai báo hải quan VNACCS\n
+        Bước 4: Đăng ký kiểm tra chuyên ngành (nếu có)\n
+        Bước 5: Khai và truyền tờ khai hai quan\n
+        Bước 6: Lấy lệnh giao hàng (với hàng nhập)\n
+        Bước 7: Chuẩn bị bộ hồ sơ hải quan\n
+        Bước 8: Làm thủ tục tại chi cục hải quan"
+
+  utter_faq/faq_customs_3:
+    - text: "Luồng xanh:\n
+        - Tờ khai in từ phần mềm\n
+        - Tờ mã vạch in từ Website của Tổng cục Hải quan.\n
+        Luồng vàng\n
+        - Giấy giới thiệu của công ty\n
+        - Tờ khai hải quan\n
+        - Và các chứng từ liên quan...\n
+        Luồng đỏ:\n
+        - Hải quan kiểm tra chứng từ\n
+        - Hải quan kiểm tra hàng hóa"
+
+  utter_faq/faq_customs_4:
+    - text:
+        "Là hình thức khai hải quan bằng phần mềm máy tính, sau đó truyền dữ liệu tờ khai hải quan qua mạng internet\n
+        tới cơ quan hải quan để tiến hành làm tiếp thủ tục."
+
+  utter_faq/faq_customs_5:
+    - text:
+        "“HS Code” hay “Hệ thống HS” được định nghĩa là Hệ thống hài hòa mô tả và mã hóa hàng hóa, là hệ thống được\n
+        tiêu chuẩn hóa quốc tế về tên gọi và mã số để phân loại hơn 98% hàng hóa được buôn bán trên phạm vi toàn thế giới\n
+        của Tổ chức Hải quan thế giới – WCO."
+
+  utter_faq/faq_customs_6:
+    - text:
+        "Là thuật ngữ chỉ những loại hàng hóa xuất khẩu, nhập khẩu phải kiểm tra về chất lượng, y tế, văn hóa,\n
+        kiểm dịch động vật, kiểm dịch thực vật, an toàn thực phẩm theo quy định của pháp luật."
+
+  utter_faq/faq_customs_7:
+    - text:
+        "MSDS là Bảng chỉ dẫn an toàn hóa chất (tiếng Anh viết tắt MSDS từ Material Safety Data Sheet) là một dạng văn bản\n
+        chứa các dữ liệu liên quan đến các thuộc tính của một hóa chất cụ thể nào đó."
+
+  utter_faq/faq_customs_8:
+    - text:
+        "Hệ thống VNACCS/VCIS là Hệ thống thông quan tự động và Cơ chế một cửa quốc gia, gồm 2 hệ thống nhỏ:\n
+        - Hệ thống thông quan hàng hóa tự động của Việt Nam (VNACCS – Viet Nam Automated Cargo Clearance System)\n
+        - Hệ thống cơ sở dữ liệu thông tin nghiệp vụ (VCIS – Vietnam Customs Intelligence Information System)."

@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+  - rule: customs import
+    steps:
+      - intent: customs_import
+      - action: utter_customs_import
+  - rule: customs export
+    steps:
+      - intent: customs_export
+      - action: utter_customs_export
+      
+  

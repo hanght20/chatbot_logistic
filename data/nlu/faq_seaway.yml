@@ -1,0 +1,283 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/faq_seaway_1
+    examples: |
+      - FCL là gì?
+      - fcl 
+      - fcl viết tắt của từ gì?
+      - FCL
+      - FCL viet tat cua tu gì
+      - fcl là gì
+      - fcl nghĩa là gì
+      - FCL nghia la gi
+      - FCL la gi
+      - Định nghĩa FCL
+      - Định nghĩa fcl
+      - dinh nghĩa fcl
+      - dinh nghia FCL
+      - fcl la gi
+      - FCL viết tắt là gì
+      - fcl nghia la gi
+      - Thế nào là FCL
+      - Thế nào là fcl
+      - the nao là fcl
+      - the nao la FCL
+      - THE NAO LÀ FCL
+      - THẾ NÀO LÀ FCL
+      - FCL LÀ GÌ
+      - FCL NGHĨA LÀ GÌ
+      - ĐỊNH NGHĨA FCL
+      - FCL LA GI
+      - FCL DINH NGHIA LA GI
+      - FCL VIẾT TẮT CỦA TỪ NÀO
+      - FCL VIET TAT CUA TU NAO
+
+  - intent: faq/faq_seaway_2
+    examples: |
+      - LCL là gì?
+      - lcl la gì
+      - LCL
+      - LCL nghĩa là gì?
+      - lcl nghia la gì
+      - LCL viết tắt của từ gì
+      - lcl viết tắt của từ gì
+      - LCL viet tat cua tu gi
+      - LCL LÀ GÌ
+      - LCL NGHĨA LÀ GÌ
+      - LCL VIẾT TẮT CỦA TỪ GÌ
+      - LCL LA GI
+      - LCL NGHIA LA GI
+      - LCL VIET TAT CUA TU GI
+      - lcl
+      - lcl viet tat cua tu gi
+      - định nghĩa lcl
+      - ĐỊNH NGHĨA LCL
+      - DINH NGHIA LCL
+      - dinh nghia lcl
+      - Thế nào là lcl
+      - thế nào là LCL
+      - The nao la lcl
+      - THE NAO LA LCL
+      - Cho tôi hỏi lcl là gì
+      - Tôi muốn hỏi lcl là gì
+      - cho t hỏi lcl là gì
+      - t muốn hỏi lcl là gì
+      - Cho toi hoi lcl la gi
+      - toi muon hoi lcl là gi
+      - Cho tôi hỏi LCL là gì
+      - Tôi muốn hỏi LCL là gì
+      - CHO T HỎI LCL LÀ GÌ
+      - T MUỐN HỎI LCL LÀ GÌ
+      - CHO TOI HOI LCL LA GI
+      - TOI MUON HOI LCL LA GI
+      - dinh nghia LCL
+
+  - intent: faq/faq_seaway_3
+    examples: |
+      - Chuyển tải (trans-shipment) là gì?
+      - chuyển tải là gì
+      - trans-shipment là gì
+      - chuyen tai la gì
+      - chuyen tai (trans-shipment) la gì
+      - Trans-shipment la gi
+      - thế nào là chuyển tải?
+      - Thế nào là chuyển tải
+      - Thế nào là trans-shipment
+      - the nao la chuyen tai
+      - the nao la trans-shipment
+      - định nghĩa chuyển tải
+      - chuyển tải hay trans-shipment nghĩa là gì
+      - chuyen tai hay trans-shipment nghia la gi
+      - CHUYỂN TẢI LÀ GÌ
+      - TRANS-SHIPMENT NGHĨA LÀ GÌ
+      - TRANS-SHIPMENT LÀ GÌ
+      - CHUYEN TAI LA GI
+      - TRANS-SHIPMENT LA GI
+      - THẾ NÀO LÀ CHUYỂN TẢI
+      - THE NAO LA TRANS-SHIPMENT
+      - ĐỊNH NGHĨA CHUYỂN TẢI
+      - ĐỊNH NGHĨA TRANS-SHIPMENT
+      - DINH NGHIA CHUYEN TAI
+      - DINH NGHIA TRANS-SHIPMENT
+      - CHUYEN TAI (TRANS-SHIPMENT) LA GI
+      - CHUYỂN TẢI (TRANS-SHIPMENT) LÀ GÌ
+      - chuyển tải
+      - chuyen tai
+      - trans shipment
+
+  - intent: faq/faq_seaway_4
+    examples: |
+      - Đóng ghép hàng (co-loading) là gì?
+      - Đóng ghép hàng là gì?
+      - co-loading là gì
+      - Dong ghep hang (co-loading) la gi
+      - thế nào là đóng ghép hàng
+      - thế nào là co-loading
+      - The nao la dong ghep hang
+      - Đóng ghép hàng là ntn
+      - Đóng ghép hàng là như thế nào?
+      - Đóng ghép hàng (co-loading) là ntn
+      - dong ghep hang la nhu the nao
+      - dong ghep hang la ntn
+      - Đóng ghép hàng hay co-loading là gì
+      - dong ghep hang hay co-loading la gi
+      - định nghĩa co-loading
+      - Dinh nghia co-loading
+      - ĐÓNG GHÉP HÀNG LÀ GÌ
+      - CO-LOADING LÀ GÌ
+      - ĐÓNG GHÉP HÀNG (CO-LOADING) LÀ GÌ
+      - DONG GHEP HANG (CO-LOADING) LA GI
+      - Cho anh hỏi đóng ghép hàng là gì
+      - Cho tôi hỏi đóng ghép hàng là gì
+      - cho t hỏi đóng ghép hàng là gì
+      - Tôi muốn hỏi đóng ghép hàng là gì
+      - t muốn hỏi đóng ghép hàng là gì
+      - t muon hoi dong ghep hang la gi
+      - Cho t hoi dong ghep hang la gi
+      - Tôi muốn hỏi co-loading là gì
+      - t muốn hỏi co-loading là gì
+      - Cho t hoi co-loading la gi
+      - toi muon hoi co-loading la gi
+      - 
+  - intent: faq/faq_seaway_5
+    examples: |
+      - Gom hàng là gì?
+      - gom hàng
+      - Gom hàng là ntn
+      - Thế nào là gom hàng?
+      - the nao la gom hang
+      - gom hang la nhu the nao
+      - Gom hàng là như thế nào
+      - gom hang đc hiểu ntn
+      - Gom hàng được hiểu như thế nào?
+      - Gom hang duoc hieu ntn
+      - Định nghĩa gom hàng
+      - dinh nghia gom hang
+      - thế nào là gom hàng
+      - The nao la gom hang
+      - T muốn hỏi gom hàng là gì
+      - Cho anh hỏi gom hàng là gì
+      - A muốn hỏi gom hàng là gì
+      - E muốn hỏi gom hàng là gì
+      - Cho tôi hỏi gom hàng là gì
+      - Cho em hỏi gom hàng là gì
+      - toi muon hoi gom hang la Gi
+      - a muon hoi gom hang la gi
+      - em muon hoi gom hang la gi
+      - Cho toi hoi gom hang la gi
+      - Toi muon hoi gom hang la gi
+      - A muon hoi gom hang la gi
+      - gom hang 
+
+  - intent: faq/faq_seaway_6
+    examples: |
+      - Vận đơn là gì?
+      - Vận đơn
+      - Thế nào là vận đơn
+      - The nao la van don
+      - Vận đơn là ntn
+      - vận đơn là như thế nào
+      - van don la ntn
+      - Van don la gi
+      - Định nghĩa vận đơn
+      - dinh nghĩa van don
+      - dn van don
+      - Thế nào là vận đơn
+      - the nao la van don
+      - Cho anh hoi van don la gi
+      - Cho em hoi van don la gi
+      - Cho toi hoi van don la gi
+      - Cho anh hỏi vận đơn là gì
+      - Cho tôi hỏi vận đơn là gì
+      - Cho em hỏi vận đơn là gì
+      - Tôi muốn hỏi vận đơn là gì
+      - Anh muốn hỏi vận đơn là gì
+      - Em muốn hỏi vận đơn là gì
+      - T muon hoi van don la gi
+      - A muon hoi van don la gi
+      - E muon hoi van don la gi
+      - van don
+
+  - intent: faq/faq_seaway_7
+    examples: |
+      - Phụ phí cước biển là gì?
+      - phụ phí cước biển
+      - Thế nào là phụ phí cước biển
+      - The nao la phu phi cuoc bien
+      - phu phi cuoc bien
+      - Phụ phí cước biển là ntn
+      - Phu phi cuoc bien la nhu the nao
+      - phu phi cuoc bien la ntn
+      - Phu phi cuoc bien la gi
+      - Định nghĩa phụ phí cước biển
+      - dinh nghia phu phi cuoc bien
+      - dn phu phi cuoc bien
+      - dn phụ phí cước biển
+      - cho anh hỏi phụ phí cước biển là gì
+      - cho em hỏi phụ phí cước biển là gì
+      - cho tôi hỏi phụ phí cước biển là gì
+      - Cho a hoi phu phi cuoc bien la gi
+      - Cho e hoi phu phi cuoc bien la gi
+      - Cho t hoi phu phi cuoc bien la gi
+      - phu phi cuoc bien
+
+
+  - intent: faq/faq_seaway_8
+    examples: |
+      - VGM là gì?
+      - vgm
+      - VGM
+      - VGM la gi
+      - vgm viết tắt của từ gì
+      - VGM viet tat cua tu gi
+      - VGM là như thế nào
+      - vgm la ntn
+      - vgm là như thế nào
+      - VGM là ntn
+      - định nghĩa VGM
+      - dinh nghia vgm
+      - thế nào là VGM
+      - vgm là sao
+      - the nao la VGM
+      - vgm nghĩa là gì
+      - cho a hỏi VGM là gì
+      - cho tôi hỏi VGM là gì
+      - VGM viết tắt của từ tiếng anh nào
+      - vgm viet tat cua tu tieng anh nao
+      
+responses:
+  utter_faq/faq_seaway_1:
+    - text:
+        "FCL viết tắt của chữ của Full Container Load, có nghĩa là vận chuyển hàng hóa trong nguyên container,\n
+        không ghép chung với lô hàng khác."
+
+  utter_faq/faq_seaway_2:
+    - text:
+        "LCL viết tắt của từ Less than Container Load là nghiệp vụ vận chuyển hàng lẻ đóng ghép chung nhiều\n
+        lô hàng nhỏ trong cùng 1 container để tiết kiệm chi phí cho chủ hàng."
+
+  utter_faq/faq_seaway_3:
+    - text:
+        "Chuyển tải hàng hóa là việc dỡ hàng xuống từ một tàu biển này và lại bốc hàng lên sang tàu biển khác trong\n
+        một hành trình vận tải đường biển từ cảng bốc hàng tới cảng dỡ hàng."
+
+  utter_faq/faq_seaway_4:
+    - text:
+        "Co-loading là việc đem hàng lẻ (LCL) của 1 Forwarder đi đóng ghép với Master Consolidator hoặc hàng nguyên\n
+        container (FCL) đi đóng ghép với NVOCC."
+
+  utter_faq/faq_seaway_5:
+    - text:
+        "Gom hàng (consolidation) là việc tập hợp những lô hàng lẻ từ nhiều người gửi ở cùng một nơi đi, thành lô hàng lớn\n
+        đóng nguyên container, để gửi và giao cho nhiều người nhận ở cùng một nơi đến. Người kinh doanh dịch vụ gom hàng hay\n
+        gọi là người gom hàng (Consolidator)"
+
+  utter_faq/faq_seaway_6:
+    - text: "Vận đơn là chứng từ do người vận chuyển phát hành cho người gửi hàng để xác nhận việc đã nhận hàng hóa chuyển chở."
+
+  utter_faq/faq_seaway_7:
+    - text: "Phụ phí cước biển - Ocean freight surcharges là các khoản phí tính thêm vào cước biển trong biểu giá của hãng tàu hay của công hội."
+
+  utter_faq/faq_seaway_8:
+    - text: "VGM -Verified Gross Mass là phiếu xác nhận khối lượng toàn bộ (Gross Weight) của container hàng vận chuyển quốc tế."

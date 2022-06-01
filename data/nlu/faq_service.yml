@@ -1,0 +1,52 @@
+version: "2.0"
+
+nlu:
+  - intent: faq/faq_service_1
+    examples: |
+      - Vận chuyển hàng cần chứng từ gì?
+      - Cần những chứng từ gì khi vận chuyển hàng
+      - Vận chuyển có cần chứng từ gì k
+      - Cần có chứng từ khi vận chuyển
+      - Anh muốn vận chuyển cần phải có chứng từ gì không
+      - Chứng từ gồm những gì
+      - Những chứng từ cần có khi vận chuyển là gì
+      - Để vận chuyển cần có những chứng từ gì
+      - Tôi muốn vận chuyển cần có chứng từ gì
+      - Van chuyen hang can chung tu gi
+      - Can nhung chung tu gi khi van chuyen hang
+      - Van chuyen co can chung tu gi khong
+      - Can co chung tu gi khi van chuyen
+      - chung tu gom nhung gi
+      - Anh muon van chuyen can phai co chung tu gi khong
+      - de van chuyen can co nhung chung tu gi
+      - nhung chung tu can co khi van chuyen la gi
+
+  - intent: faq/faq_service_2
+    examples: |
+      - Hàng đi 2 chiều tính giá bao nhiêu?
+      - Hàng đi hai chiều giá như nào
+      - Bên cty tính giá hàng đi 2 chiều thế nào
+      - Bên em tính giá hàng 2 chiều như nào
+      - Giá hàng đi 2 chiều tính sao
+      - Tính giá hàng đi 2 chiều ntn
+      - Hàng đi 2 chiều giá tính ntn
+      - Hang di hai chieu tinh gia bao nhieu
+      - Tinh gia hang di 2 chieu the nao
+      - Anh muon hoi gia hang di 2 chieu the nao
+      - Tôi muốn hỏi giá hàng đi 2 chiều là bao nhiêu
+      - Giá hàng đi 2 chiều ở công ty là bao nhiêu
+      - Ben e tinh gia hang di hai chieu the nao
+      - Hang di 2 chieu gia nhu nao
+      - gia hang di hai chieu tinh sao
+      - Hang di hai chieu gia nhu the nao
+      - Cong ty tinh giá hàng đi hai chiều thế nào
+      
+responses:
+  utter_faq/faq_service_1:
+    - text: "- Hàng sản xuất trong nước: Hóa đơn VAT, trên hàng hóa phải có dán tem, nhãn, mã số hàng hóa trùng khớp với hóa đơ\n
+        - Hàng vận chuyển nội bộ: Phiếu xuất kho kiêm vận chuyển nội bộ ( mua mẫu ở cơ quan thuế thuộc Bộ Tài Chính cấp) trên các thùng hàng, kiện hàng cũng phải có tem nhãn công ty sản xuất đầy đủ\n
+        - Hàng nhập khẩu: Phải có tờ khai hải quan, trên kiện hàng phải có tem nhãn phụ bằng Tiếng Việt"
+
+  utter_faq/faq_service_2:
+    - text: "- Đối với những đơn hàng cần vận chuyển cả chiều đi và chiều về thì cước vận chuyển chiều về được giảm 30% so với chiều đi.\n 
+        - Thời gian chờ bốc hàng chiều về không quá 1 ngày, nếu kéo dài thời gian chờ hơn có thể phụ thu thêm cước xe chờ hàng."

@@ -1,0 +1,11 @@
+version: "2.0"
+
+nlu:
+  - intent: out_of_scope
+    examples: |
+      - công ty có tuyển nhân viên không
+      - Tư vấn viên là ai
+      - Công ty đang tuyển vị trí nào
+      - Tôi muốn đặt đồ ăn
+      - Tôi muốn biết thời tiết ngày hôm nay
+      
