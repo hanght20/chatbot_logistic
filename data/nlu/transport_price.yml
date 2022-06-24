@@ -43,8 +43,8 @@ nlu:
       - anh co the gui nhung loại mat hang gi
       - co the gui nhung mat hang gi
       - Được phép vận chuyển loại hang gi
-      - Mình có thể gửi đi loại hàng gì
       - Bên công ty có thể vận chuyển loại hàng gì
+  
       
   - intent: ask_product_define
     examples: |
@@ -65,7 +65,6 @@ nlu:
       - [hàng nguyên container](product) là gì
       - t muon hoi [hang nguyen cont]{"entity":"product","value":"hàng nguyên container"} la ntn
       - [tờ khai hải quan](product) là gì
-      - [THC](product) là viết tắt của từ gì
       - như nào là [tờ khai hải quan](product)
       - Định nghĩa [tờ khai hải quan](product) 
       - The nao la [to khai hai quan]{"entity":"product","value":"tờ khai hải quan"}

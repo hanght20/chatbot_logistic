@@ -1,37 +1,23 @@
 {
-  "procedure_export": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "ask_product_define": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 208,
-    "confused_with": {}
-  },
-  "customs_export": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "out_of_scope": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
   "procedure_import": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 13,
+    "confused_with": {}
+  },
+  "transport_register": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 78,
+    "confused_with": {}
+  },
+  "ask_infomation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 46,
     "confused_with": {}
   },
   "ask_price": {
@@ -55,18 +41,18 @@
     "support": 176,
     "confused_with": {}
   },
-  "ask_surcharge": {
+  "handoff": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 95,
+    "support": 29,
     "confused_with": {}
   },
-  "ask_infomation": {
+  "out_of_scope": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 46,
+    "support": 5,
     "confused_with": {}
   },
   "faq": {
@@ -76,32 +62,39 @@
     "support": 740,
     "confused_with": {}
   },
-  "handoff": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 29,
-    "confused_with": {}
-  },
   "ask_product": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "ask_surcharge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 95,
+    "confused_with": {}
+  },
+  "procedure_export": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "ask_product_define": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 207,
+    "confused_with": {}
+  },
+  "customs_export": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 17,
-    "confused_with": {}
-  },
-  "ask_register": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "transport_register": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 45,
     "confused_with": {}
   },
   "accuracy": 1.0,
@@ -109,12 +102,12 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 1481
+    "support": 1479
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 1481
+    "support": 1479
   }
 }

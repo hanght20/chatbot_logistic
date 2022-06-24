@@ -1,0 +1,1350 @@
+version: "2.0"
+nlu:
+- intent: chitchat/chitchat_1
+  examples: |
+    - khoẻ
+    - Bạn có khoẻ không
+    - Mình vẫn khỏe, còn bạn?
+    - T vẫn khỏe, m thì sao?
+    - Vẫn ổn chứ?
+    - Bạn có khỏe không?
+    - Vẫn khỏe
+- intent: faq/faq_4
+  examples: |
+    - Bên e có thể thông quan hàng tại sân bay nội bài k
+    - Công ty có thông quan hàng hóa tại sân bay được không
+    - cty có thể thông quan hàng tại sân bay k
+    - Co duoc thong quan hang hoa tai san bay khong
+    - Bên em có thể thông quan hàng tại sân bay k
+    - Có được thông quan hàng tại sân bay k
+    - Công ty có thể thông quan hàng tại Sân bay Nội Bài, TP HCM, Đà Nẵng không?
+    - co dc thong quan hang hoa o san bay k
+    - cong ty co the thong quan hang tai san bay noi bai, tp hcm, da nang khong
+- intent: faq/faq_5
+  examples: |
+    - Nếu hàng bị mất thì bên em có chịu trách nhiệm không
+    - Boi thuong va den hang trong truong hop nao
+    - Den hang trong nhung truong hop nao
+    - Hàng bị vỡ hay hỏng thì công ty có đền k
+    - Bồi thường trong trường hợp nào
+    - Cty có chịu trách nhiệm nếu hàng bị mất k
+    - có dc bồi thường hay đền hàng k
+    - hang bi vo hay hong thi cong ty co boi thuong k
+    - ben e co chiu trach nhiem neu hang bi mat hay khong
+    - Bồi thường và đền hàng trong trường hợp nào
+    - Có đc bồi thường và đền hàng nếu hàng bị mất hay hỏng không
+- intent: faq/faq_2
+  examples: |
+    - lam the nao toi co the nhan duoc bao gia cuoc phi tu VHT logistics
+    - để nhận được báo giá cước phí thì làm thế nào
+    - 
+    - Làm thế nào tôi có thể nhận được báo giá cước phí từ VHT Logistics?
+    - báo giá cước phí
+    - Tôi muốn nhận báo giá cước phí
+    - a muon nhan bao gia cuoc phi
+    - bao gia cuoc phi
+    - t muốn nhận báo giá cước phí thì làm như nào
+    - Để nhận dc báo giá cước phí thì làm thế nào
+    - Anh muốn nhận báo giá cước phí
+    - Em muốn nhận báo giá cước phí
+    - A muon nhan bao gia cuoc phi
+- intent: faq/faq_customs_6
+  examples: |
+    - Kiem tra chuyen nganh la nhu the nao
+    - Dinh nghia kiem tra chuyen nganh
+    - Thế nào là kiểm tra chuyên ngành
+    - kiểm tra chuyên ngành là gì?
+    - kiem tra chuyen nganh
+    - kt chuyên ngành là ntn
+    - kt chuyên ngành là gì?
+    - Kt chuyên ngành là như thế nào?
+    - thế nào là kt chuyên ngành
+    - Ktra chuyên ngành là gì?
+    - kt chuyen nganh la ntn
+    - Kiểm tra chuyên ngành là ntn?
+- intent: faq/faq_customs_7
+  examples: |
+    - MSDS là gì?
+    - the nao la msds
+    - MSDS
+    - msds la viet tat cua cum tu nao
+    - MSDS là viết tắt của từ gì
+    - MSDS la gi
+    - Nhu nao la MSDS
+    - MSDS la viet tat cua tu nao
+    - MSDS là viết tắt của cụm từ nào?
+    - Thế nào là MSDS
+    - Định nghĩa msds
+    - Như nào là MSDS
+    - 
+- intent: faq/faq_3
+  examples: |
+    - Dịch vụ ở cty có đa dạng k?
+    - vht có những dịch vụ nào
+    - ben e cung cap nhung dich vu nao
+    - dịch vụ ở công ty có đa dạng không
+    - Có những dịch vụ gì
+    - Cty cung cấp những dịch vụ nào
+    - Công ty có những dịch vụ nào
+    - Bên em cung cấp những dịch vụ gì?
+    - Ở cty có những dịch vụ gì
+    - VHT Logistics cung cấp những dịch vụ gì?
+    - co nhung dich vu nao
+    - Công ty có những dịch vụ gì?
+    - ben em cung cap nhung dich vu nao
+    - VHT logistics cung cap nhung dich vu gi
+- intent: faq/faq_customs_8
+  examples: |
+    - he thong vnaccs la gì
+    - he thong vcis la gi
+    - dinh nghia vcis
+    - VNACCS/VCIS
+    - VNACCS nghĩa là gì
+    - định nghĩa VNACCS
+    - vnaccs
+    - vcis
+    - Định nghĩa VCIS
+    - Dinh nghia vnaccs
+    - VCIS nghĩa là gì
+    - vnaccs/vcis
+    - vnaccs nghia la gi
+- intent: faq/faq_logistics_1
+  examples: |
+    - Bộ chứng từ xuất nhập khẩu
+    - Bo chung tu xuat nhap khau gom nhung gi
+    - Bộ chứng từ xnk có những giấy tờ gì
+    - chứng từ xuất nhập khẩu bao gồm những gì
+    - bộ chứng từ xnk gồm những gì
+    - Bo chung tu xuat nhap khau co nhung gi
+    - Bo chung tu xnk gom nhung giay to gi
+    - Bo chung tu XNK
+    - Bộ chứng từ xuất nhập khẩu gồm những gì?
+    - Bộ chứng từ xnk
+    - bộ chứng từ xuất nhập khẩu gồm những giấy tờ gì
+    - 
+    - Bo chung tu xuat nhap khau
+    - chứng từ xuất nhập có những giấy tờ gì
+- intent: faq/faq_service_1
+  examples: |
+    - Vận chuyển hàng cần chứng từ gì?
+    - Can nhung chung tu gi khi van chuyen hang
+    - de van chuyen can co nhung chung tu gi
+    - Vận chuyển có cần chứng từ gì k
+    - Chứng từ gồm những gì
+    - Van chuyen co can chung tu gi khong
+    - Tôi muốn vận chuyển cần có chứng từ gì
+    - nhung chung tu can co khi van chuyen la gi
+    - Van chuyen hang can chung tu gi
+    - Can co chung tu gi khi van chuyen
+    - chung tu gom nhung gi
+    - Cần những chứng từ gì khi vận chuyển hàng
+    - Anh muốn vận chuyển cần phải có chứng từ gì không
+    - Để vận chuyển cần có những chứng từ gì
+- intent: faq/faq_service_2
+  examples: |
+    - Hang di hai chieu tinh gia bao nhieu
+    - Hàng đi 2 chiều giá tính ntn
+    - Anh muon hoi gia hang di 2 chieu the nao
+    - Giá hàng đi 2 chiều tính sao
+    - Hang di hai chieu gia nhu the nao
+    - Bên em tính giá hàng 2 chiều như nào
+    - Tinh gia hang di 2 chieu the nao
+    - Hang di 2 chieu gia nhu nao
+    - Cong ty tinh giá hàng đi hai chiều thế nào
+    - Hàng đi 2 chiều tính giá bao nhiêu?
+    - gia hang di hai chieu tinh sao
+    - Giá hàng đi 2 chiều ở công ty là bao nhiêu
+    - Tôi muốn hỏi giá hàng đi 2 chiều là bao nhiêu
+- intent: faq/faq_1
+  examples: |
+    - Làm thế nào để liên hệ vs cty
+    - liên hệ với bên em bằng cách nào
+    - để liên hệ với VHT logistics thì làm như nào
+    - E muon lien he vs cong ty thi lam the nao
+    - De lien he voi VHT thi lam the nao
+    - E muốn liên hệ vs cty thì làm thế nào
+    - Tôi có thể liên hệ với VHT Logistics bằng cách nào?
+    - a muon lien he voi cong ty lam the nao
+    - Liên hệ vs VHT Logistics thế nào?
+    - Tôi muốn liên hệ với công ty thì làm như nào
+    - Để liên hệ vs VHT logistics thì làm thế nào
+    - Lam the nao de lien he voi cong ty
+    - Lien he voi VHT Logistics the nao
+    - tôi muốn liên hệ vs VHT logistics thì làm thế nào
+    - toi muon lien he vs cong ty thi lam the nao
+- intent: faq/faq_logistics_4
+  examples: |
+    - dn phiếu đóng gói hàng hóa
+    - Phiếu đóng gói hàng hóa là gì
+    - Thế nào là phiếu đóng gói
+    - phieu dong goi la ntn
+    - phiếu đóng gói
+    - phiếu đóng gói là như thế nào
+    - Phieu dong goi
+    - phieu dong goi la nhu the nao
+    - Phiếu đóng gói là như thế nào
+    - phiếu đóng gói là ntn
+    - Định nghĩa phiếu đóng gói hàng hóa
+    - Dinh nghia phieu dong goi
+    - Định nghĩa phiếu đóng gói
+    - Phieu dong goi la gi
+    - Phiếu đóng gói là gì?
+    - dn phiếu đóng gói
+- intent: faq/faq_seaway_7
+  examples: |
+    - cho em hỏi phụ phí cước biển là gì
+    - phu phi cuoc bien la ntn
+    - dinh nghia phu phi cuoc bien
+    - Cho e hoi phu phi cuoc bien la gi
+    - Định nghĩa phụ phí cước biển
+    - Phụ phí cước biển là gì?
+    - phu phi cuoc bien
+    - dn phu phi cuoc bien
+    - Cho a hoi phu phi cuoc bien la gi
+    - Cho t hoi phu phi cuoc bien la gi
+    - Phu phi cuoc bien la gi
+    - Thế nào là phụ phí cước biển
+    - The nao la phu phi cuoc bien
+    - phụ phí cước biển
+    - cho tôi hỏi phụ phí cước biển là gì
+- intent: faq/faq_seaway_8
+  examples: |
+    - VGM là ntn
+    - vgm là như thế nào
+    - vgm viết tắt của từ gì
+    - vgm la ntn
+    - VGM là gì?
+    - cho tôi hỏi VGM là gì
+    - VGM là như thế nào
+    - vgm viet tat cua tu tieng anh nao
+    - vgm là sao
+    - thế nào là VGM
+    - dinh nghia vgm
+    - cho a hỏi VGM là gì
+    - the nao la VGM
+    - VGM
+    - vgm
+    - VGM viết tắt của từ tiếng anh nào
+- intent: faq/faq_logistics_3
+  examples: |
+    - The nao la hd thuong mai
+    - Thế nào là hóa đơn thương mại
+    - the nao la hoa don thuong mai
+    - Hóa đơn thương mại là như thế nào
+    - Định nghĩa hóa đơn thương mại
+    - Hd thuong mai
+    - dn hóa đơn thương mại
+    - Hoa don thuong mai la nhu the nao
+    - hdtm là gì
+    - hd thuong mai la gi
+    - Hóa đơn thương mại là ntn
+    - Hóa đơn thương mại là gì?
+    - hd thương mại là gì
+    - Nhu nao la hoa don thuong mai
+    - dn hoa don thuong mai
+    - hdtm
+    - Hoa don thuong mai
+- intent: faq/faq_logistics_2
+  examples: |
+    - dinh nghia hop dong ngoai thuong
+    - Định nghĩa hợp đồng ngoại thương
+    - hdnt
+    - Thế nào là hợp đồng ngoại thương
+    - Hợp đồng ngoại thương là như thế nào
+    - Như nào là hợp đồng ngoại thương
+    - như nào là hd ngoại thương
+    - Hop dong ngoai thuong la gi
+    - hd ngoại thương là gì
+    - Hợp đồng ngoại thương
+    - Hd ngoai thuong
+    - hop dong ngoai thuong
+    - như nào là hợp đồng ngoại thiwong
+    - Hop dong ngoai thuong la nhu the nao
+    - Dinh nghia hd ngoai thuong
+    - hdnt là gì
+    - nhu nao la hop dong ngoai thuong
+- intent: faq/faq_logistics_6
+  examples: |
+    - dn incoterms
+    - incoterms viet tat of tu gi
+    - dinh nghia incoterms
+    - Incoterms là viết tắt của từ gì
+    - Incoterms la viet tat cua tu tieng anh nao
+    - Incoterms la gi
+    - incoterms là như thế nào
+    - nhu nao la incoterms
+    - Cho t hoi incoterms la gi
+    - Incoterms là viết tắt của từ tiếng anh nào
+    - Incoterms
+    - incoterms là ntn
+    - Như nào là incoterms
+    - incoterms viet tat cua tu gi
+    - Thế nào là incoterms
+    - Định nghĩa incoterms
+    - incoterms la viet tat cua tu gi
+    - incoterms viết tắt của từ tiếng anh nào
+- intent: faq/faq_seaway_6
+  examples: |
+    - Cho em hoi van don la gi
+    - Định nghĩa vận đơn
+    - Anh muốn hỏi vận đơn là gì
+    - van don la ntn
+    - Cho em hỏi vận đơn là gì
+    - The nao la van don
+    - Thế nào là vận đơn
+    - Vận đơn là gì?
+    - van don
+    - Vận đơn là ntn
+    - Cho anh hỏi vận đơn là gì
+    - the nao la van don
+    - Van don la gi
+    - E muon hoi van don la gi
+    - Em muốn hỏi vận đơn là gì
+    - Cho tôi hỏi vận đơn là gì
+    - dn van don
+    - dinh nghĩa van don
+    - Cho anh hoi van don la gi
+    - vận đơn là như thế nào
+- intent: faq/faq_seaway_5
+  examples: |
+    - Cho anh hỏi gom hàng là gì
+    - Thế nào là gom hàng?
+    - Cho tôi hỏi gom hàng là gì
+    - Gom hàng là gì?
+    - E muốn hỏi gom hàng là gì
+    - the nao la gom hang
+    - The nao la gom hang
+    - T muốn hỏi gom hàng là gì
+    - A muốn hỏi gom hàng là gì
+    - Cho em hỏi gom hàng là gì
+    - Gom hàng là như thế nào
+    - Gom hàng được hiểu như thế nào?
+    - Cho toi hoi gom hang la gi
+    - thế nào là gom hàng
+    - gom hàng
+    - Định nghĩa gom hàng
+    - dinh nghia gom hang
+    - Toi muon hoi gom hang la gi
+    - Gom hang duoc hieu ntn
+    - gom hang
+    - A muon hoi gom hang la gi
+- intent: faq/faq_seaway_1
+  examples: |
+    - FCL la gi
+    - FCL nghia la gi
+    - FCL viết tắt là gì
+    - fcl là gì
+    - the nao là fcl
+    - dinh nghia FCL
+    - fcl
+    - ĐỊNH NGHĨA FCL
+    - Định nghĩa fcl
+    - Thế nào là FCL
+    - FCL là gì?
+    - FCL LA GI
+    - fcl nghĩa là gì
+    - FCL
+    - FCL viet tat cua tu gì
+    - FCL VIẾT TẮT CỦA TỪ NÀO
+    - dinh nghĩa fcl
+    - THE NAO LÀ FCL
+    - FCL VIET TAT CUA TU NAO
+    - FCL DINH NGHIA LA GI
+    - fcl viết tắt của từ gì?
+    - the nao la FCL
+    - FCL NGHĨA LÀ GÌ
+    - fcl nghia la gi
+- intent: faq/faq_logistics_5
+  examples: |
+    - chung nhan xuat xu hang hoa
+    - Chung nhan xuat xu la ntn
+    - Dinh nghia chung nhan xuat xu
+    - Đn chứng nhận xuất xứ hàng hóa
+    - Chứng nhận xuất xứ là gì?
+    - Cho tôi hỏi chứng nhận xuất xứ là gì
+    - the nao la chung nhan xuat xu
+    - Dn chung nhan xuat xu hang hoa
+    - Định nghĩa chứng nhận xuất xứ hàng hóa
+    - đn chứng nhận xuất xứ
+    - Chung nhan xuat xu la gi
+    - Giay chung nhan xuat xu la gi
+    - chứng nhận xuất xứ hàng hóa
+    - chứng nhận xuất xứ là ntn
+    - Chứng nhận xuất xứ hàng hóa là gì
+    - dn chung nhan xuat xu
+    - chứng nhận xuất xứ hàng hóa là ntn
+    - Định nghĩa chứng nhận xuất xứ
+    - chung nhan xuat xu la ntn
+    - Giấy chứng nhận xuất xứ là gì
+    - Chứng nhận xuất xứ là ntn
+    - Như nào là chứng nhận xuất xứ
+    - chung nhan xuat xu
+    - Chứng nhận xuất xứ là như thế nào
+- intent: faq/faq_seaway_3
+  examples: |
+    - chuyển tải
+    - CHUYEN TAI (TRANS-SHIPMENT) LA GI
+    - Thế nào là chuyển tải
+    - Thế nào là trans-shipment
+    - DINH NGHIA CHUYEN TAI
+    - chuyen tai
+    - TRANS-SHIPMENT NGHĨA LÀ GÌ
+    - ĐỊNH NGHĨA CHUYỂN TẢI
+    - chuyển tải hay trans-shipment nghĩa là gì
+    - CHUYEN TAI LA GI
+    - ĐỊNH NGHĨA TRANS-SHIPMENT
+    - chuyen tai hay trans-shipment nghia la gi
+    - chuyen tai (trans-shipment) la gì
+    - trans shipment
+    - chuyển tải là gì
+    - Chuyển tải (trans-shipment) là gì?
+    - CHUYỂN TẢI LÀ GÌ
+    - the nao la chuyen tai
+    - Trans-shipment la gi
+    - THE NAO LA TRANS-SHIPMENT
+    - THẾ NÀO LÀ CHUYỂN TẢI
+    - DINH NGHIA TRANS-SHIPMENT
+    - định nghĩa chuyển tải
+    - the nao la trans-shipment
+- intent: faq/faq_seaway_4
+  examples: |
+    - t muốn hỏi co-loading là gì
+    - Tôi muốn hỏi đóng ghép hàng là gì
+    - Đóng ghép hàng là gì?
+    - The nao la dong ghep hang
+    - Cho t hoi dong ghep hang la gi
+    - Đóng ghép hàng là như thế nào?
+    - Cho anh hỏi đóng ghép hàng là gì
+    - Đóng ghép hàng là ntn
+    - 
+    - toi muon hoi co-loading la gi
+    - dong ghep hang hay co-loading la gi
+    - dong ghep hang la nhu the nao
+    - thế nào là co-loading
+    - Dong ghep hang (co-loading) la gi
+    - Cho tôi hỏi đóng ghép hàng là gì
+    - Cho t hoi co-loading la gi
+    - dong ghep hang la ntn
+    - t muốn hỏi đóng ghép hàng là gì
+    - cho t hỏi đóng ghép hàng là gì
+    - Dinh nghia co-loading
+    - co-loading là gì
+    - DONG GHEP HANG (CO-LOADING) LA GI
+    - ĐÓNG GHÉP HÀNG (CO-LOADING) LÀ GÌ
+    - t muon hoi dong ghep hang la gi
+    - thế nào là đóng ghép hàng
+- intent: faq/faq_customs_3
+  examples: |
+    - HỒ SƠ HẢI QUAN GỒM CÓ GIẤY TỜ GÌ
+    - Cho a hỏi về hồ sơ hải quan
+    - CO GIAY TO GI TRONG BO HO SO HAI QUAN
+    - BỘ HỒ SƠ HẢI QUAN CÓ NHỮNG GIẤY TỜ GÌ
+    - cho a hoi ve bo ho so hai quan
+    - hs hai quan gom nhung gi
+    - HO SO HAI QUAN CO NHUNG GI
+    - HỒ SƠ HẢI QUAN GỒM NHỮNG GÌ
+    - Hồ sơ hải quan gồm có giấy tờ gì
+    - ho so hai quan co nhưng gi
+    - CHO EM HỎI VỀ HỒ SƠ HẢI QUAN
+    - Hs hải quan gồm những gì
+    - Ho so hai quan co nhung gi
+    - ho so hai quan bên e co nhung gi
+    - Ho so hai quan co nhung giay to gi
+    - hồ sơ hải quan gồm những gì?
+    - hs hai quan
+    - hồ sơ hải quan
+    - CHO EM HOI VE HO SO HAI QUAN
+    - Hò sơ hải quan bên em có những gì
+    - CHO A HỎI VỀ BỘ HỒ SƠ HẢI QUAN
+    - HỒ SƠ HẢI QUAN BÊN EM CÓ NHỮNG GÌ
+    - HỒ SƠ HẢI QUAN CÓ NHỮNG GÌ
+    - Bo ho so hai quan gom co nhung giay to gi
+    - có những giấy tờ gì trong bộ hồ sơ hải quan
+    - Bộ hồ sơ hải quan có những giấy tờ gì
+    - CÓ GIẤY TỜ GÌ TRONG BỘ HỒ SƠ HẢI QUAN
+    - CHO ANH HỎI VỀ BỘ HỒ SƠ HẢI QUAN
+    - cho anh hoi ve bo ho so hai quan
+- intent: faq/faq_seaway_2
+  examples: |
+    - lcl viết tắt của từ gì
+    - t muốn hỏi lcl là gì
+    - LCL
+    - CHO TOI HOI LCL LA GI
+    - Tôi muốn hỏi LCL là gì
+    - CHO T HỎI LCL LÀ GÌ
+    - LCL LA GI
+    - DINH NGHIA LCL
+    - Thế nào là lcl
+    - Cho tôi hỏi lcl là gì
+    - THE NAO LA LCL
+    - LCL LÀ GÌ
+    - T MUỐN HỎI LCL LÀ GÌ
+    - Tôi muốn hỏi lcl là gì
+    - ĐỊNH NGHĨA LCL
+    - LCL NGHIA LA GI
+    - LCL là gì?
+    - TOI MUON HOI LCL LA GI
+    - The nao la lcl
+    - lcl la gì
+    - LCL nghĩa là gì?
+    - định nghĩa lcl
+    - LCL VIẾT TẮT CỦA TỪ GÌ
+    - cho t hỏi lcl là gì
+    - LCL NGHĨA LÀ GÌ
+    - LCL viết tắt của từ gì
+    - lcl viet tat cua tu gi
+    - LCL VIET TAT CUA TU GI
+    - dinh nghia LCL
+    - Cho tôi hỏi LCL là gì
+- intent: faq/faq_customs_4
+  examples: |
+    - đn hải quan điện tử
+    - thế nào là hải quan điện tử
+    - cho em hỏi về hải quan điện tử
+    - hải quan dt
+    - hai quan dien tu
+    - Hai quan dien tu ntn
+    - Hải quan điện từ là gì
+    - DN HẢI QUAN ĐIỆN TỬ
+    - hqdt
+    - THE NAO LA HAI QUAN DIEN TU
+    - Định nghĩa hải quan điện tử
+    - HAI QUAN DIEN TU
+    - CHO A HỎI HẢI QUAN ĐIỆN TỬ LÀ GÌ
+    - HAI QUAN DIEN TU LA GI
+    - hai quan dien tu la the nao?
+    - cho a hỏi về hải quan điện tử
+    - Hải quan điện tử
+    - cho e hỏi về hải quan điện tử
+    - Dinh nghia hai quan dien tu
+    - hải quan điện tử là thế nào
+    - cho anh hỏi về hải quan điện tử
+    - CHO E HỎI HẢI QUAN ĐIỆN TỬ
+    - THẾ NÀO LÀ HẢI QUAN ĐIỆN TỬ
+    - HẢI QUAN ĐIỆN TỬ LÀ NHƯ THẾ NÀO
+    - nhu nao la hai quan dien tu
+    - cho anh hoi ve hai quan dien tu
+    - Hải quan điện tử là ntn
+    - Hải quan điện tử là thế nào?
+    - hải quan điện tử là như thế nào
+    - Như nào là hải quan điện tử
+    - Hai quan dien tu la ntn
+    - Hải quan đt là gì
+    - the nao la hai quan dien tu
+    - ĐỊNH NGHĨA HẢI QUAN ĐIỆN TỬ
+    - hai quan dien tu la gi
+    - CHO EM HỎI HẢI QUAN ĐIỆN TỬ LÀ GÌ
+- intent: faq/faq_customs_2
+  examples: |
+    - em muốn hỏi các bước làm thủ tục hải quan
+    - QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+    - tt hải quan
+    - ANH MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+    - e muon hoi cac buoc lam thu tuc hai quan
+    - t muốn hỏi các bước làm thủ tục hải quan
+    - QUY TRÌNH LÀM THỦ TỤC HẢI QUAN RA SAO
+    - Cho anh hỏi về thủ tục hải quan
+    - CAC BUOC LAM THU TUC HAI QUAN
+    - quy trinh lam thu tuc hai quan
+    - quy trinh of thu tuc hai quan
+    - các bước làm thủ tục hải quan?
+    - Cho e hoi quy trinh lam thu tuc hai quan
+    - a muốn hỏi về thủ tục hải quan
+    - QUY TRINH LAM THU TUC HAI QUAN
+    - em muon hoi cac buoc lam thu tuc hai quan
+    - Anh muốn hỏi về thủ tục hải quan
+    - Cho e hỏi về thủ tục hải quan
+    - t muon hoi cac buoc lam thu tuc hai quan?
+    - quy trinh cua thu tuc hai quan
+    - CHO ANH HỎI VỀ THỦ TỤC HẢI QUAN
+    - CHO A HOI QUY TRINH LAM THU TUC HAI QUAN
+    - Cho em hỏi về thủ tục hải quan
+    - quy trình of tt hải quan
+    - T MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+    - quy trinh lam thu tuc hai quan the nao
+    - CHO C HOI QUY TRINH LAM THU TUC HAI QUAN
+    - TÔI MUỐN HỎI CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+    - quy trình làm thủ tục hải quan thế nào
+    - cho em hoi quy trinh lam thu tuc hai quan
+    - Quy trinh lm thu tuc hai quan
+    - tôi muốn hỏi các bước  làm thủ tục hải quan
+    - CHO ANH HỎI QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+    - THỦ TỤC HẢI QUAN
+    - CHO CHỊ HỎI QUY TRÌNH LÀM THỦ TỤC HẢI QUAN
+    - CÁC BƯỚC LÀM THỦ TỤC HẢI QUAN
+    - E MUON HOI CAC BUOC LAM THU TUC HAI QUAN
+    - thủ tục hải quan
+    - Cho a hỏi về thủ tục hải quan
+    - quy trình lm thủ tục hải quan
+- intent: faq/faq_customs_5
+  examples: |
+    - HỆ THỐNG HS ĐC HIỂU NHƯ THẾ NÀO
+    - Ma HS hieu nhu the nao
+    - HỆ THỐNG HS LÀ GÌ
+    - dn he thong hs
+    - HE THONG HS DUOC HIEU LA GI
+    - ma hs dc hieu nhu the nao
+    - HỆ THỐNG HS ĐƯỢC HIỂU LÀ GÌ
+    - he thong hs la gi
+    - Thế nào là hệ thống HS
+    - 
+    - Ma hs dc hieu la gì
+    - The nao la he thong hs
+    - Mã HS được hiểu là gì
+    - HS là gì?
+    - HE THONG HS DC HIEU NTN
+    - MÃ HS ĐƯỢC HIỂU NHƯ THẾ NÀO
+    - hệ thống HS là gì
+    - HE THONG HS DUOC HIEU NHU THE NAO
+    - HỆ THỐNG HS DC HIỂU NTN
+    - He thong hs duoc hieu nhu the nao
+    - DINH NGHIA MA HS
+    - hs là gì
+    - THẾ NÀO LÀ MÃ HS
+    - Hệ thống hs được hiểu như thế nào
+    - hệ thống hs đc hiểu như thế nào
+    - Ma HS
+    - dn hệ thống Hs
+    - MA HS HIỂU NHƯ THẾ NÀO
+    - He thong hs la gi
+    - ma HS duoc hieu la gi
+    - THE NAO LA MA HS
+    - HS
+    - ĐỊNH NGHĨA HỆ THỐNG HS
+    - HỆ THỐNG HS ĐƯỢC HIỂU NTN
+    - Định nghĩa hệ thống hs
+    - mã HS là gì?
+    - mã hs hiểu như thế nào
+    - Thế nào là mã HS
+    - the nao la ma hs
+    - ĐỊNH NGHĨA MÃ HS
+    - hệ thống Hs
+- intent: faq/faq_customs_1
+  examples: |
+    - Cho t hỏi thông quan là gì
+    - Tôi muốn hỏi về thông quan
+    - thông quan
+    - ANH MUON HOI THONG QUAN LA GI
+    - ANH MUỐN HỎI THÔNG QUAN LÀ GÌ
+    - Như nào là thông quan
+    - THÔNG QUAN LÀ NTN
+    - DINH NGHIA THONG QUAN
+    - cho chị hỏi thông quan là gì
+    - THÔNG QUAN LÀ NHƯ THẾ NÀO
+    - THÔNG QUAN LÀ GÌ
+    - TOI MUON HOI VE THONG QUAN
+    - Anh muốn hỏi thông quan là gì
+    - Cho a hỏi thông quan là gì
+    - DN THONG QUAN
+    - thong quan la gi
+    - A muốn hỏi thông quan là gì
+    - t muon hoi ve thong quan
+    - The nao la thong quan
+    - Thông quan là ntn
+    - THONG QUAN LA NHU THE NAO
+    - Định nghĩa thông quan
+    - thong quan la ntn
+    - Cho tôi hỏi thông quan là gì?
+    - THẾ NÀO LÀ THÔNG QUAN
+    - Thông quan là gì?
+    - THONG QUAN LA NTN
+    - Đn thông quan
+    - nhu nao la thong quan
+    - dinh nghia thong quan
+    - chị muốn hỏi thông quan là gì
+    - NHU NAO LA THONG QUAN
+    - T MUON HOI VE THONG QUAN
+    - thong quan la nhu the nao
+    - CHO A HOI THONG QUAN LA GI
+    - Cho anh hỏi thông quan là gì
+    - Thông quan là như thế nào
+    - ĐỊNH NGHĨA THÔNG QUAN
+    - thong quan
+    - CHO ANH HỎI THÔNG QUAN LÀ GÌ
+    - cho toi hoi thong quan la gi
+    - Thế nào là thông quan
+    - Cho c hỏi thông quan là gì
+- intent: chitchat/chitchat_0
+  examples: |
+    - chào ad
+    - cho toi hoi
+    - alo
+    - toi can tro giup
+    - cho tôi hỏi
+    - Chào ac
+    - hi chatbot
+    - Chào bạn
+    - giup toi voi
+    - Alo
+    - chào anh chi
+    - Gọi tn?
+    - Cho mình biết tên bạn
+    - Xưng hô thế nào?
+    - Rất vui lòng được gặp bạn!
+    - Chào add
+    - xin chào
+    - Xưng tn?
+    - hi chào bạn
+    - em ơi
+    - uh
+    - alo ạ
+    - Rất vui được gặp bạn.
+    - ừ
+    - co
+    - chào
+    - hello
+    - xin đc hỗ trợ
+    - Bạn ơi?
+    - tôi cần trợ giúp
+    - Êu, hỏi tí?
+    - trợ giúp
+    - hi
+    - Chào ém
+    - xin chào chatbot
+    - chào bot
+    - Tên bạn là gì?
+    - Hello
+    - Xin chào
+    - hi n
+    - heloeem
+    - HI
+    - yes
+    - chào chatbot
+    - Chào ad
+- intent: chitchat/chitchat_2
+  examples: |
+    - Em cảm ơn ạ
+    - cảm ơn ban
+    - em cảm ơn
+    - dạ em cảm ơn ạ
+    - Ok
+    - cảm ơn em
+    - anh cám ơn
+    - mình không
+    - anh không
+    - không cần đâu
+    - em cảm ơn anh nhé
+    - Chị không
+    - Đúng rồi!
+    - ok cảm ơn ad
+    - Cảm ơn bạn nhiều
+    - Cảm ơn ạ
+    - thanks bạn
+    - ok xin cảm ơn
+    - cảm ơn em nhiều nhé
+    - mình cảm ơn bot nhé
+    - ok e, a cảm ơn nhé
+    - Giỏi quá
+    - ko can ho tro
+    - uki
+    - ok, cảm ơn em
+    - Mình không cần trợ giúp gì nữa
+    - uki nhé
+    - ok, thanks ban
+    - vâng, cảm ơn ạ
+    - ô kê em
+    - Làm tốt lắm
+    - mình cám ơn
+    - uki e
+    - cảm ơn e
+    - Cảm ơn e
+    - Không
+    - cảm ơn nhé
+    - Anh không
+    - uki bot
+    - ko can tro giup
+    - mình cảm ơn
+    - Hiểu rồi
+    - Minh khong can giup gi nua
+    - ô kê bot
+    - thanks
+    - e xin cảm ơn
+    - Em cảm ơn a nhé
+    - okii
+    - ukie
+    - no
+    - thanks em
+    - Bạn giúp mình r
+    - mình cảm ơn!
+    - ko cần hỗ trợ nữa đâu
+    - ok thanks
+    - cám ơn bạn
+    - ô kê
+    - Bạn đã giúp mình rất nhiều
+    - Anh cảm ơn em nha
+    - ko cần
+    - vâng cảm ơn add
+    - oki.thanks bạn.
+    - không cần
+    - chị không
+    - Okay nhé
+    - Cảm ơn
+    - cảm ơn
+    - không
+    - thank you
+    - cảm ơn b
+    - cảm ơn bạn
+    - em cảm ơn anh/chị nhé
+    - cảm ơn bạn nhiều
+    - xin cảm ơn
+    - Không cần hỗ trợ
+    - T cảm ơn ạ!
+    - mình cảm ơn bạn
+    - Ok cảm ơn b
+    - cảm ơn bạn nha
+    - Ah, hiểu r
+    - Cảm ơn bạn
+    - mình cảm ơn nhé
+    - Xin cảm ơn
+    - oki , cảm ơn b nhé
+    - ok. cảm mơn em
+    - chị cảm ơn nhé
+    - không. cảm ơn bạn nhs
+    - xin cảm ơn bạn
+- intent: out_of_scope
+  examples: |
+    - Tư vấn viên là ai
+    - Tôi muốn đặt đồ ăn
+    - Tôi muốn biết thời tiết ngày hôm nay
+    - Công ty đang tuyển vị trí nào
+- intent: customs_import
+  examples: |
+    - Thông quan lô hàng [nhập khẩu](transport_type) mất bao lâu
+    - Thời gian thông quan cho một lô hàng [nhập khẩu](transport_type) mất bao lâu ?
+    - tg thong quan lo hang [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} mat bao lau
+    - Ben em thong quan lo hang [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} thoi gian bao lau
+    - Thời gian thông quan cho 1 lô hàng [nhập khẩu](transport_type) mất bao lâu
+    - bên e thông quan lô hàng [nhập khẩu](transport_type) mất bao lâu
+    - [nhap]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} mot don hang mat bao lau
+    - ben e thong quan lo hang [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} mat bao lau
+    - [nhập]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} một đơn hàng mất bao lâu
+    - Thoi gian thong quan mot lo hang [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"}
+- intent: procedure_import
+  examples: |
+    - Quy trinh [nhap]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} mot lo hang ntn
+    - cac buoc [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} mot lo hang ntn
+    - quy trình [nhập]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} 1 đơn hàng thế nào
+    - Quy trinh [nhap]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} mot don hang the nao
+    - Quy trình một lô hàng [nhập khẩu](transport_type) như thế nào ?
+    - Quy trình 1 lô hàng [nhập khẩu](transport_type) ntn
+    - quy trinh mot lo hang [nhap khau](transport_type) nhu the nao
+    - Quy trình [nhập]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} một lô hàng như thế nào
+    - Cac buoc [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} 1 lo hang the nao
+    - Quy trinh 1 lo hang [nhap khau]{"entity": "transport_type", "value": "nh\u1eadp kh\u1ea9u"} ntn
+- intent: procedure_export
+  examples: |
+    - Quy trình một lô hàng [xuất khẩu](transport_type) như thể nào ?
+    - Các bước [xuất khẩu](transport_type) 1 lô hàng thế nào
+    - 
+    - Quy trình một lô hàng [xuất khẩu](transport_type) ntn
+    - quy trình 1 lô hàng [xuất khẩu](transport_type) ntn
+    - Quy trình một lô hàng [xuất khẩu](transport_type) thế nào
+    - Quy trinh [xuat]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} mot lo hang ntn
+    - Quy trinh 1 lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} ntn
+    - quy trình 1 lô hàng [xuất khẩu](transport_type) như thế nào
+    - quy trình [xuất]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} một lô hàng ntn
+    - Các bước [xuất khẩu](transport_type) 1 lô hàng
+    - Cac buoc [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} lo hang the nao
+    - quy trình [xuất]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} một lô hàng thế nào
+    - quy trinh mot lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} nhu the nao
+- intent: ask_product
+  examples: |
+    - A muốn vận chuyển hàng theo [đường biển](shipping)
+    - Tôi muốn vận chuyển [đường bộ](shipping)
+    - co the gui nhung mat hang gi
+    - A có thể gửi đi những mặt hàng nào
+    - Vận chuyển hàng [đường biển](shipping) gồm những loại hàng gì
+    - Có thể gửi những loại hàng nào
+    - Có thể vận chuyển loại hàng nào
+    - ben e van chuyen nhung mat hang gi
+    - Bên e vận chuyển mặt hàng gì
+    - Tôi có thể gửi những loại hàng gì
+    - anh co the gui nhung loại mat hang gi
+    - Bên công ty có thể vận chuyển loại hàng gì
+    - công ty vận chuyển những mặt hàng gì
+- intent: customs_export
+  examples: |
+    - Bao lâu thì thông quan được 1 lô hàng [xuất khẩu](transport_type)
+    - Thoi gian thong quan cho mot lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} mat bao lau
+    - Để thông quan lô hàng [xuất khẩu](transport_type) mất mấy giờ
+    - mot lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"} mat bao lau
+    - 1 lô hàng [xuất khẩu](transport_type) thông quan mất bao lâu
+    - Bao h thi thong quan lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"}
+    - bao lau thi thong quan duoc mot lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"}
+    - Thời gian thông quan cho 1 lô hàng [xuất khẩu](transport_type) mất bao lâu
+    - tg thong quan 1 lo hang [xuat khau]{"entity": "transport_type", "value": "xu\u1ea5t kh\u1ea9u"}
+    - một lô hàng [xuất khẩu](transport_type) thông quan mất bao lâu
+    - Thông quan 1 lô hàng [xuất khẩu](transport_type) mất bao lâu
+    - Thời gian thông quan cho một lô hàng [xuất khẩu](transport_type) mất bao lâu ?
+    - bao giờ thì thông quan được một lô hàng [xuất khẩu](transport_type)
+- intent: handoff
+  examples: |
+    - toi muon gap bo phan dich vu khach hang
+    - Nhân viên tư vấn
+    - Cho t gặp nhân viên tư vấn
+    - tôi muốn gặp một nhân viên tư vấn
+    - a muốn gặp nv tư vấn
+    - a muon gap nv tu van
+    - gap tdv
+    - Tư vấn viên
+    - tôi muốn gặp bộ phận dịch vụ khách hàng
+    - cho gap nhan vien
+    - Có nhân viên tư vấn nào đang trực không
+    - toi muon gap mot nhan vien tu van
+    - Gặp nhân viên
+    - Cho gặp nhân viên
+    - gap nhan vien
+    - tong dai vien
+    - Hãy cho tôi nói chuyện với tư vấn viên
+    - nhan vien tu van
+    - gặp tđv
+    - muon gap tu van vien
+    - tư vấn viên
+    - nhân viên tư vấn
+    - Chat với nhân viên
+- intent: ask_price
+  examples: |
+    - Tôi muốn vận chuyển [hàng nguyên pin](product) theo đường biển thì phí bao nhiêu
+    - Vận chuyển đường bộ [hàng nguyên container](product)
+    - giá vận chuyển [phụ tùng vật tư](product) là bao nhiêu
+    - van chuyen [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"} gia the nao
+    - giá vận chuyển [hàng phổ thông](product) là bao nhiêu
+    - [hàng thương mại điện tử](product) giá như nào
+    - van chuyen [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} gia the nao
+    - giá vận chuyển [hàng điện tử](product) là bao nhiêu
+    - van chuyen [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"} gia the nao
+    - vận chuyển [hàng thương hiệu](product) giá như thế nào
+    - Tôi muốn vận chuyển [hàng thương hiệu](product) thì phí là bao nhiêu
+    - tôi muốn vận chuyển [hàng nguyên pin](product) thì trả phí bao nhiêu
+    - giá vận chuyển [linh kiện điện tử](product) là bao nhiêu
+    - van chuyen [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"} gia the nao
+    - Gia van chuyen [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"}
+    - cho tôi xin bảng giá vận chuyển [hàng nhạy cảm](product)
+    - [hàng nhạy cảm](product) giá ntn
+    - giá vận chuyển [hàng siêu nặng](product) là bao nhiêu
+    - Phí vận chuyển đường biển [hàng nhạy cảm](product)
+    - giá vận chuyển [hàng nặng](product) là bao nhiêu
+    - phí vận chuyển [hàng máy móc](product) là bao nhiêu
+    - giá vận chuyển [mỹ phẩm, thực phẩm](product) là bao nhiêu
+    - Vận chuyển [hàng máy móc](product) giá thế nào
+    - giá vận chuyển [hàng nguyên pin](product)
+- intent: ask_infomation
+  examples: |
+    - Anh có phải nộp giấy tờ gì k
+    - Có cần nộp giấy tờ gì k
+    - T can phai cung cap thong tin gi
+    - tôi phải cung cấp thông tin gì khi muốn vận chuyển
+    - Có cần giấy tờ gì không
+    - A co can nop giay to gi khong
+    - T có phải cung cấp thông tin gì k
+    - De gui hang di t can nhung thong tin nao
+    - t cần nộp những giấy tờ gì k
+    - Anh có phải cung cấp thông tin gì không
+    - Tôi phải nộp giấy tờ gì
+    - Giay to phai nop la gi
+    - Tôi cần phải cung cấp thông tin gì
+    - Anh có cần nộp giấy tờ gì k
+    - Cung cap nhung giay to gi
+    - Có phải nộp giấy tờ gì k
+    - T co can nop giay to gi khong
+    - anh co can nop giay to gi k
+    - Giay to can phai nop la gi
+    - Tôi có phải nộp giấy tờ gì k
+    - A can phai cung cap thong tin gi
+    - t phai cung cap thong tin gi khi muon van chuyen
+    - a có phải cung cấp giấy tờ gì k
+    - Cần phải nộp những giấy tờ gì
+    - Anh phải nộp giấy tờ gì
+    - Co phai nop giay to gi k
+    - Tôi có cần nộp giấy tờ gì k
+    - Giấy tờ phải nộp là gì
+    - can phai nop nhung giay to gi
+    - Em có cần phải cung cấp thông tin gì k
+    - Toi can phai cung cap thong tin gi
+    - Giấy tờ cần phải nộp là gì
+    - Để gửi hàng đi tôi cần những thông tin nào
+    - Toi phai nop giay to gi
+    - A phải nộp giấy tờ gì k
+    - Giay to can phai nop co nhung gi
+- intent: transport_register
+  examples: |
+    - A muốn [nhập khẩu](transport_type) túi xách
+    - [xuất khẩu](transport_type) điện thoại và linh kiện điện tử
+    - Để [xuất khẩu](transport_type) hàng hóa tôi phải làm thế nào
+    - tôi muốn đăng kí [xuất khẩu](transport_type)
+    - [xuat khau](transport_type) thuy san
+    - Tôi muốn [xuất khẩu](transport_type) hàng đi
+    - t muốn [xuất khẩu](transport_type) thủy sản
+    - toi muon [xuat khau](transport_type) hang
+    - Toi muon [xuat](transport_type) giay dep
+    - [xuất hàng](transport_type) làm thế nào
+    - [nhập](transport_type) quần áo
+    - [xuất khẩu](transport_type)
+    - [nhập khẩu](transport_type) làm thế nào
+    - t muon dk [nhap khau](transport_type)
+    - cho mình [xuất khẩu](transport_type) giày dép
+    - [nhập hàng](transport_type) thì làm ntn
+    - anh muon [xuat](transport_type) hang di
+    - Tôi muốn [xuất](transport_type) hàng đi
+    - t muon dk [xuat khau](transport_type)
+    - Tôi muốn [nhập khẩu](transport_type) quần áo
+    - A muốn [xk](transport_type) cafe
+    - Cho tôi [xuất khẩu](transport_type) điện thoại và linh kiện điện tử
+    - Cho toi dang ki [nhap khau](transport_type) hang
+    - [xuất khẩu](transport_type) thủy sản
+    - muốn [xuất hàng](transport_type) làm ntn
+    - t muốn [nhập khẩu](transport_type) quần áo
+    - Em muốn [xuất](transport_type) hàng đi
+    - [nhập khẩu](transport_type) quần áo
+    - [xk](transport_type) giay dep
+    - [xuất khẩu](transport_type) dt và linh kiện điện tử
+    - Em muon dang ki [nhap khau](transport_type)
+    - Toi muon [xuat khau](transport_type) ca phe
+    - [xuất khẩu](transport_type) giày dép
+    - tôi muốn [nhập](transport_type) hàng về
+    - anh muốn [nhập](transport_type) hàng về
+    - t muốn đăng kí [xuất hàng](transport_type)
+    - Cho t đăng kí [nhập hàng](transport_type)
+    - a muon dang ki [nhap khau](transport_type)
+    - t muốn [xk](transport_type) cà phê
+    - [nhập khẩu](transport_type) nước hoa
+    - em muốn [nhập](transport_type) hàng về
+    - [nk](transport_type) nuoc hoa
+    - A muốn đăng kí [nhập khẩu](transport_type)
+    - anh muon [nhap](transport_type) hang ve
+    - t muốn [xuất khẩu](transport_type) hàng hóa
+    - Toi muon [nhap](transport_type) tui xach
+    - Cho anh [nhap](transport_type) tui xach
+    - Cho tôi [xk](transport_type) quần áo
+    - cho tôi đăng kí [nhập khẩu](transport_type) hàng
+    - Anh muốn đăng kí [nhập khẩu](transport_type)
+    - Tôi muốn [xuất khẩu](transport_type) dt và linh kiện điện tử
+    - cho tôi đăng kí [xuất khẩu](transport_type) hàng
+    - [nhap khau](transport_type) tui xach
+    - anh muốn [xuất](transport_type) hàng đi
+    - [xuat khau](transport_type) giay dep
+    - Cho t [nhập](transport_type) nước hoa
+    - em muon [xuat](transport_type) hang di
+    - Anh muon [xuat](transport_type) giay dep
+    - t muon [nhap](transport_type) hang ve
+    - Anh muốn đki [nhập khẩu](transport_type)
+    - Muốn [nhập khẩu](transport_type) hàng hóa làm thế nào
+    - em muon [nhap](transport_type) hang ve
+    - [nhap khau](transport_type)
+- intent: ask_surcharge
+  examples: |
+    - dinh nghia [phụ phí tắc nghẽn cảng](product)
+    - dn [phu phi nhien lieu](product)
+    - [phí nâng hạ](product) là gì
+    - anh muon hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - [phí nâng hạ](product) la gì
+    - [PCS](product) la viet tat cua tu nao
+    - anh muon hoi ve [phu phi nhien lieu](product) la gi
+    - [phu phi nhien lieu](product)
+    - [FAF](product) la gi
+    - [PCS](product)
+    - Em muốn hỏi về [phí nâng hạ](product)
+    - cho e hoi [FAF](product) la gi
+    - cho toi hoi [FAF](product) la gi
+    - the nao la [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - thế nào là [phí nâng hạ](product)
+    - [PCS](product) viết tắt của từ gì
+    - cho anh hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - định nghĩa [FAF](product)
+    - [pcs](product) la viet tat cua tu nao
+    - Định nghĩa [phí nâng hạ](product)
+    - [phụ phí nhiên liệu](product) là như thế nào
+    - t muon hoi ve [phu phi nhien lieu](product) la gi
+    - dn [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - định nghĩa [phụ phí nhiên liệu](product)
+    - [FAF](product)
+    - Cho anh hỏi [phí nâng hạ](product) là gì
+    - cho t hoi [phu phi nhien lieu](product) la gi
+    - [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"} la gi
+    - [phụ phí xếp dỡ](product) là gì
+    - cho a hoi [FAF](product) la gi
+    - e muon hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - [phụ phí tắc nghẽn cảng](product)
+    - cho toi hoi [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"} la gi\
+    - [pcs](product) là gì
+    - cho a hoi [phu phi nhien lieu](product) la gi
+    - dinh nghia [PCS](product)
+    - em muon hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - cho em hoi [FAF](product) la gi
+    - [PCS](product) la gi
+    - [faf](product)
+    - cho a hỏi về [phí nâng hạ](product)
+    - cho toi hoi [phu phi nhien lieu](product) la gi
+    - [phu phi tac nghen cang](product)
+    - cho e hoi [phu phi nhien lieu](product) la gi
+    - em muon hoi ve [phu phi nhien lieu](product) la gi
+    - định nghĩa [PCS](product)
+    - [FAF](product) là gì
+    - [FAF](product) là viết tắt của từ nào
+    - [phu phi tac nghen cang](product) la gi
+    - cho e hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - cho anh hoi [phu phi nhien lieu](product) la gi
+    - thế nào là [phụ phí tắc nghẽn cảng](product)
+    - Cho tôi hỏi [phí nâng hạ](product) là gì
+    - [FAF](product) là viết tắt của từ gì
+    - [pcs](product) viết tắt của từ nào
+    - cho t hoi [FAF](product) la gi
+    - [PCS](product) là gì
+    - [phụ phí nhiên liệu](product) là gì
+    - [phi nang ha](product) la gi
+    - toi muon hoi ve [phu phi nhien lieu](product) la gi
+    - dinh nghia [phu phi nhien lieu](product)
+    - dinh nghia [FAF](product)
+    - [PCS](product) là viết tắt của từ gì
+    - [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - cho em hoi [phu phi nhien lieu](product) la gi
+    - [FAF](product) viết tắt của từ gì
+    - Anh muốn hỏi về  [phí nâng hạ](product)
+    - [phu phi xep do](product) la nhu nao
+    - cho tôi hỏi về [phí nâng hạ](product)
+    - đn [phụ phí nhiên liệu](product)
+    - [phụ phí tắc nghẽn cảng](product) là gì
+    - cho anh hoi [FAF](product) la gi
+    - [pcs](product) la gi
+    - [FAF](product) la viet tat cua tu nao
+    - a muon hoi ve [phi nang ha]{"entity": "product", "value": "ph\u00ed n\u00e2ng h\u1ea1"}
+    - e muon hoi ve [phu phi nhien lieu](product) la gi
+- intent: ask_product_define
+  examples: |
+    - [cảng chuyển tải](product) là gì
+    - The nao la [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"}
+    - như nào là [tờ khai hải quan](product)
+    - [hàng máy móc](product) là gì
+    - dinh nghia [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"}
+    - Cho t hỏi [tờ khai hải quan](product) là gì
+    - Thế nào là [hàng nhạy cảm](product)
+    - Thế nào là [hàng nguyên pin](product)
+    - cho e hỏi [cảng chuyển tải](product) là gì
+    - [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la ntn
+    - Em muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la nhu the nao
+    - Anh muốn hỏi về [hàng thương hiệu](product)
+    - dn [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"}
+    - Anh muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - Anh muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la gi
+    - cho e hoi [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"} la gi
+    - [hang lo thuong]{"entity": "product", "value": "h\u00e0ng l\u00f4 th\u01b0\u1eddng"} la gi
+    - [tờ khai hải quan](product)
+    - Anh muốn hỏi về [cảng chuyển tải](product)
+    - Cho toi hoi ve [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - [hàng nguyên pin](product)
+    - Tôi muốn hỏi [hàng nhạy cảm](product) là gì
+    - Cho anh hỏi [cảng chuyển tải](product) là gì
+    - Định nghĩa [tờ khai hải quan](product)
+    - [mỹ phẩm, thực phẩm](product) là gì
+    - cho em hỏi [cảng chuyển tải](product) là gì
+    - A muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la ntn
+    - t muon hoi ve [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - [hàng nhạy cảm](product)
+    - cho em hoi [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - anh muon hoi ve [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - dn [hàng nguyên pin](product)
+    - [hang dien tu]{"entity": "product", "value": "h\u00e0ng \u0111i\u1ec7n t\u1eed"}
+    - Cho em hoi ve [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"}
+    - Cho em hỏi [hàng nhạy cảm](product) là ntn
+    - a muon hoi [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"} la gi
+    - dinh nghia [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - Anh muon hoi ve [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"}
+    - [hàng nguyên container](product) là như thế nào
+    - Cho em hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - Cho tôi hỏi về [tờ khai hải quan](product)
+    - Định nghĩa [hàng máy móc](product)
+    - định nghĩa [cảng chuyển tải](product)
+    - Toi muon hoi ve [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"}
+    - [tờ khai hải quan](product) là gì
+    - Dinh nghia [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"}
+    - Em muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la nhu the nao
+    - e muốn hỏi [hàng nguyên container](product) là gì
+    - a muon hoi [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"} la gi
+    - Cho e hỏi [hàng nhạy cảm](product) là như thế nào
+    - [cảng chuyển tải](product) là như thế nào
+    - [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"}
+    - Anh muốn hỏi về [hàng nguyên container](product)
+    - [my pham]{"entity": "product", "value": "m\u1ef9 ph\u1ea9m, th\u1ef1c ph\u1ea9m"}
+    - thế nào là [cảng chuyển tải](product)
+    - cho toi hoi [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - Cho anh hỏi [hàng thương hiệu](product) là gì
+    - Anh muon hoi [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"}
+    - Cho em hoi [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"} la nhu the nao
+    - t muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la như thế nào
+    - [hàng máy móc](product) là sao
+    - cho a hoi [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - Em muốn hỏi [hàng nguyên container](product) là gì
+    - E muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la nhu the nao
+    - Toi muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la gi
+    - Cho a hỏi [hàng máy móc](product) là như thế nào
+    - [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - [hàng thương hiệu](product) là ntn
+    - Em muốn hỏi về [hàng thương hiệu](product)
+    - Cho anh hoi [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"} la gi
+    - Cho toi hoi ve [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la nhu the nao
+    - Cho em hỏi về [tờ khai hải quan](product)
+    - [hàng phổ thông](product) là gì
+    - Toi muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - Cho em hỏi [tờ khai hải quan](product) là gì
+    - Anh muốn hỏi [hàng nguyên container](product) là gì
+    - [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"} la gi
+    - Cho toi hoi ve [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - em muon hoi ve [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - Cho tôi hỏi [tờ khai hải quan](product) là gì
+    - [linh kiện điện tử](product) là gì
+    - cho em hoi [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"} la gi
+    - Định nghĩa [hàng nguyên pin](product)
+    - e muốn hỏi về [hàng thương hiệu](product)
+    - [hàng nặng](product) là gì
+    - [hàng lô thường](product) là gì
+    - [mỹ phẩm, thực phẩm](product)
+    - Em muon hoi ve [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"}
+    - cho e hoi [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - cho t hoi [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - dn [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"}
+    - [cảng chuyển tải](product)
+    - Toi muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - Định nghĩa [hàng thương hiệu](product)
+    - dinh nghia [hàng nguyên container](product)
+    - em muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - Định nghĩa [hàng nguyên container](product)
+    - T muốn hỏi [hàng nguyên container](product) là gì
+    - Cho anh hỏi [hàng máy móc](product) là ntn
+    - [hàng nguyên container](product)
+    - t muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - Anh muốn hỏi [hàng nguyên container](product) là như thế nào
+    - em muốn hỏi về [cảng chuyển tải](product)
+    - Toi muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la nhu the nao
+    - [hang linh kien]{"entity": "product", "value": "h\u00e0ng linh ki\u1ec7n"}
+    - [hàng nặng](product)
+    - Tôi muốn hỏi [hàng nguyên container](product) là gì
+    - thong tin ve loai [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"}
+    - [hang dien tu]{"entity": "product", "value": "h\u00e0ng \u0111i\u1ec7n t\u1eed"} la gi
+    - thế nào là [hàng thương hiệu](product)
+    - Cho t hoi ve [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - Anh muốn hỏi [hàng nguyên container](product) là ntn
+    - [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"} la gi
+    - the nao la [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"}
+    - Cho em hỏi [hàng nhạy cảm](product) là như thế nào
+    - Cho em hoi ve [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - A muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - dn [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - [phụ tùng vật tư](product)
+    - Cho anh hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - [hàng nguyên container](product) là gì
+    - toi muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - cho a hỏi [cảng chuyển tải](product) là gì
+    - [hàng điện tử](product)
+    - toi muon hoi ve [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - dinh nghia [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"}
+    - A muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - [phụ tùng vật tư](product) là gì
+    - Cho tôi hỏi [hàng máy móc](product) là gì
+    - Cho anh hoi ve [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - định nghĩa [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - [hàng siêu nặng](product)
+    - [hàng lẻ thông thường](product) là gì
+    - Cho t hoi ve [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la gi
+    - em muốn hỏi [hàng máy móc](product) là gì
+    - [hang nhay cam]{"entity": "product", "value": "h\u00e0ng nh\u1ea1y c\u1ea3m"}
+    - [hàng linh kiện](product) là gì
+    - Tôi muốn hỏi về [cảng chuyển tải](product)
+    - [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"} la gi
+    - Anh muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - cho t hỏi [cảng chuyển tải](product) là gì
+    - e muon hoi ve [cang chuyen tai]{"entity": "product", "value": "c\u1ea3ng chuy\u1ec3n t\u1ea3i"}
+    - cho a hỏi về [hàng nhạy cảm](product)
+    - tôi muốn hỏi [hàng thương hiệu](product) là gì
+    - [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"}
+    - T muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la gi
+    - [hàng thương hiệu](product) là gì
+    - Anh muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la ntn
+    - [hàng siêu nặng](product) là gì
+    - [hàng phổ thông](product)
+    - Cho tôi hỏi [hàng nhạy cảm](product) là gì
+    - [hang le thong thuong]{"entity": "product", "value": "h\u00e0ng l\u1ebb th\u00f4ng th\u01b0\u1eddng"} la gi
+    - Anh muốn hỏi [hàng nguyên pin](product)
+    - [hàng máy móc](product)
+    - Cho a hoi [hang may moc]{"entity": "product", "value": "h\u00e0ng m\u00e1y m\u00f3c"} la gi
+    - [hàng nguyên pin](product) là gì
+    - A muon hoi [to khai hai quan]{"entity": "product", "value": "t\u1edd khai h\u1ea3i quan"} la nhu the nao
+    - [hang pho thong]{"entity": "product", "value": "h\u00e0ng ph\u1ed5 th\u00f4ng"} la gi
+    - Cho anh hỏi về [tờ khai hải quan](product)
+    - cho e hoi [hang nguyen pin]{"entity": "product", "value": "h\u00e0ng nguy\u00ean pin"} la gi
+    - Em muon hoi [hang nguyen cont]{"entity": "product", "value": "h\u00e0ng nguy\u00ean container"} la gi
+    - t muốn hỏi [hàng thương hiệu](product)
+    - E muon hoi [hang thuong hieu]{"entity": "product", "value": "h\u00e0ng th\u01b0\u01a1ng hi\u1ec7u"} la ntn
+    - Cho em hỏi [hàng máy móc](product) là gì
+- synonym: nhập khẩu
+  examples: |
+    - nhap khau
+    - nhập
+    - nhap
+    - nhập khẩu
+    - nk
+    - nhap hang
+    - nhập hàng
+- synonym: xuất khẩu
+  examples: |
+    - xuat khau
+    - xuất
+    - xuat
+    - xuất khẩu
+    - xk
+    - xuất hàng
+    - xuat hang
+- synonym: phụ phí nhiên liệu
+  examples: |
+    - phụ phí nhiên liệu
+    - phu phi nhien lieu
+    - FAF
+    - faf
+- synonym: phụ phí tắc nghẽn cảng
+  examples: |
+    - phụ phí tắc nghẽn cảng
+    - phu phi tac nghen cang
+    - PCS
+    - pcs
+- synonym: hàng nhạy cảm
+  examples: |
+    - hang nhay cam
+- synonym: hàng máy móc
+  examples: |
+    - hang may moc
+- synonym: hàng nguyên pin
+  examples: |
+    - hang nguyen pin
+- synonym: hàng lô thường
+  examples: |
+    - hang lo thuong
+- synonym: hàng lẻ thông thường
+  examples: |
+    - hang le thong thuong
+- synonym: hàng linh kiện
+  examples: |
+    - hang linh kien
+- synonym: hàng thương hiệu
+  examples: |
+    - hang thuong hieu
+- synonym: hàng nguyên container
+  examples: |
+    - hang nguyen cont
+- synonym: tờ khai hải quan
+  examples: |
+    - to khai hai quan
+- synonym: cảng chuyển tải
+  examples: |
+    - cang chuyen tai
+- synonym: hàng phổ thông
+  examples: |
+    - hang pho thong
+- synonym: hàng điện tử
+  examples: |
+    - hang dien tu
+- synonym: mỹ phẩm, thực phẩm
+  examples: |
+    - my pham
+- synonym: phí nâng hạ
+  examples: |
+    - phi nang ha

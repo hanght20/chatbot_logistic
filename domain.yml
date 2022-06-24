@@ -5,6 +5,7 @@ intents:
   - faq_customs
   - faq_seaway
   - faq_logistics
+  - faq_service
   - chitchat
   - register
   - customs_export
@@ -15,7 +16,6 @@ intents:
   - ask_product_define
   - ask_price
   - transport_register
-  - ask_register
   - handoff
   - ask_infomation
   - ask_surcharge
@@ -79,8 +79,6 @@ actions:
   - validate_customer_form
 
 responses:
- 
-
   utter_product_info:
     - text: "Dạ không biết {call_name} muốn vận chuyển hàng gì và số lượng bao nhiêu ạ"
 

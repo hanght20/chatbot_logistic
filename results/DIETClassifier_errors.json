@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Công ty có vận chuyển đường hàng không k",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "shipping",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9793635010719299,
+        "value": "đường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "t muốn vận chuyển theo đường hàng không thì có được không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "shipping",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9753832221031189,
+        "value": "đường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

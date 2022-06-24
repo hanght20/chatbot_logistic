@@ -1,26 +1,42 @@
 [
   {
-    "text": "hợp đồng ngoại thương",
+    "text": "Mẫu hóa đơn này là sao",
     "intent_response_key_target": "faq/faq_logistics_3",
     "intent_response_key_prediction": {
-      "name": "faq/faq_logistics_2",
-      "confidence": 0.894489586353302
+      "name": "faq/faq_seaway_6",
+      "confidence": 0.44951143860816956
     }
   },
   {
-    "text": "lcl",
-    "intent_response_key_target": "faq/faq_seaway_8",
+    "text": "Tờ hóa đơn này là như thế nào hả",
+    "intent_response_key_target": "faq/faq_logistics_3",
     "intent_response_key_prediction": {
-      "name": "faq/faq_seaway_2",
-      "confidence": 0.723292887210846
+      "name": "faq/faq_seaway_6",
+      "confidence": 0.2589796483516693
     }
   },
   {
-    "text": "lcl viết tắt của từ gì",
-    "intent_response_key_target": "faq/faq_seaway_8",
+    "text": "Công ty có cấp hd này không",
+    "intent_response_key_target": "faq/faq_logistics_3",
     "intent_response_key_prediction": {
-      "name": "faq/faq_seaway_2",
-      "confidence": 0.7553929090499878
+      "name": "faq/faq_logistics_1",
+      "confidence": 0.17083127796649933
+    }
+  },
+  {
+    "text": "Lấy mẫu hóa đơn này ở đâu",
+    "intent_response_key_target": "faq/faq_logistics_3",
+    "intent_response_key_prediction": {
+      "name": "faq/faq_seaway_6",
+      "confidence": 0.4428708851337433
+    }
+  },
+  {
+    "text": "Hóa đơn này có những thông tin gì",
+    "intent_response_key_target": "faq/faq_logistics_3",
+    "intent_response_key_prediction": {
+      "name": "faq/faq_logistics_1",
+      "confidence": 0.47540751099586487
     }
   }
 ]

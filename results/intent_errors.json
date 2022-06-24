@@ -1,10 +1,42 @@
 [
   {
-    "text": "cảng chuyển tải là như thế nào",
-    "intent": "ask_product_define",
+    "text": "Tờ hóa đơn này là như thế nào hả",
+    "intent": "faq",
     "intent_prediction": {
-      "name": "ask_surcharge",
-      "confidence": 0.8108537197113037
+      "name": "ask_product_define",
+      "confidence": 0.9997963309288025
+    }
+  },
+  {
+    "text": "Công ty có cấp hd này không",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "ask_infomation",
+      "confidence": 0.6106509566307068
+    }
+  },
+  {
+    "text": "vht chuyển những hàng gì",
+    "intent": "ask_product",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Tôi muốn chuyển đồ điện tử có được không",
+    "intent": "ask_product",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6676745414733887
+    }
+  },
+  {
+    "text": "mình muốn chuyển nước hoa có được không",
+    "intent": "ask_product",
+    "intent_prediction": {
+      "name": "ask_register",
+      "confidence": 0.3892478346824646
     }
   }
 ]

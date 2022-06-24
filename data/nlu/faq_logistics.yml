@@ -73,7 +73,7 @@ nlu:
       - Nhu nao la hoa don thuong mai
       - hd thương mại là gì
       
-
+   
   - intent: faq/faq_logistics_4
     examples: |
       - Phiếu đóng gói là gì?

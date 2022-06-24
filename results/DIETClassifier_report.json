@@ -1,18 +1,4 @@
 {
-  "transport_type": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 236,
-    "confused_with": {}
-  },
-  "product": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1013,
-    "confused_with": {}
-  },
   "shipping": {
     "precision": 1.0,
     "recall": 1.0,
@@ -20,22 +6,36 @@
     "support": 8,
     "confused_with": {}
   },
+  "product": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1012,
+    "confused_with": {}
+  },
+  "transport_type": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 236,
+    "confused_with": {}
+  },
   "micro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 1257
+    "support": 1256
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 1257
+    "support": 1256
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 1257
+    "support": 1256
   }
 }

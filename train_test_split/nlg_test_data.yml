@@ -1,0 +1,144 @@
+version: "2.0"
+responses:
+  utter_chitchat/chitchat_1:
+  - text: VHT Logistics có thể giúp gì cho {call_name}?
+  utter_faq/faq_4:
+  - text: |-
+      Chúng tôi có văn phòng tại các cảng biển và sân bay quốc tế ở Việt Nam và có thể thông quan tại Đà Nẵng,
+       Hải Phòng, Hà Nội, Tp. Hồ Chí Minh cũng như các KCX/KCN trên toàn quốc
+  utter_faq/faq_5:
+  - text: |-
+      Những trường hợp nào khách hàng sẽ được bồi thường nếu gặp rủi ro khi gửi hàng tại VHT:
+      1. Nếu lỗi thuộc về chúng tôi: Bồi thường 100% giá trị kiện hàng
+      2. Nếu lỗi thuộc về đơn vị thứ 3 như: Các hãng hàng không, hãng tàu…
+      - Mua Bảo hiểm 8% giá trị hàng: Hàng rủi ro mất mát, bồi thường 100% giá trị hàng
+      - Không mua bảo hiểm: Mất mát bồi thường 70% giá trị hàng, tối đa 5 triệu
+      - Bồi thường theo luật Bưu Chính viễn thông Việt Nam
+      3.Phụ thu: Vùng sâu vùng xa, hàng quá kilogam, quá khổ theo quy định
+      4.Miễn trừ bảo hiểm:
+      - Đối với hàng dễ vỡ như thuỷ tinh, sành sứ, tranh ảnh không được đóng kiện cẩn thận.
+      - Bưu gửi đã được phát và người nhận không có ý kiến gì khi nhận bưu gửi.
+      - Hàng hóa bị hư hại do đặc tính tự nhiên hoặc do điều kiện bảo quản không tốt.
+  utter_faq/faq_2:
+  - text: |-
+      Có ba cách để {call_name} nhận được báo giá nhanh nhất, theo thứ tự sau:
+       - Gọi điện trực tiếp qua số điện thoại 02436574566
+       - Chat trực tiếp vào Fanpage Facebook của chúng tôi
+       - Điền thông tin lô hàng trong trang Báo giá
+  utter_faq/faq_customs_6:
+  - text: |-
+      Là thuật ngữ chỉ những loại hàng hóa xuất khẩu, nhập khẩu phải kiểm tra về chất lượng, y tế, văn hóa,
+       kiểm dịch động vật, kiểm dịch thực vật, an toàn thực phẩm theo quy định của pháp luật.
+  utter_faq/faq_customs_7:
+  - text: |-
+      MSDS là Bảng chỉ dẫn an toàn hóa chất (tiếng Anh viết tắt MSDS từ Material Safety Data Sheet) là một dạng văn bản
+       chứa các dữ liệu liên quan đến các thuộc tính của một hóa chất cụ thể nào đó.
+  utter_faq/faq_3:
+  - text: 'Chúng tôi chuyên cung cấp các dịch vụ giao nhận vận tải hàng hóa nội địa và quốc tế như: Vận tải đường biển, Vận tải đường bộ, Đại lý khai báo hải quan. Để biết thêm chi tiết hãy truy cập trang Dịch vụ'
+  utter_faq/faq_customs_8:
+  - text: |-
+      Hệ thống VNACCS/VCIS là Hệ thống thông quan tự động và Cơ chế một cửa quốc gia, gồm 2 hệ thống nhỏ:
+       - Hệ thống thông quan hàng hóa tự động của Việt Nam (VNACCS – Viet Nam Automated Cargo Clearance System)
+       - Hệ thống cơ sở dữ liệu thông tin nghiệp vụ (VCIS – Vietnam Customs Intelligence Information System).
+  utter_faq/faq_logistics_1:
+  - text: |-
+      Bộ chứng từ xuất nhập khẩu bao gồm những giấy tờ cần thiết để hoàn thành việc xuất hay nhập khẩu một lô hàng
+       như Hợp đồng ngoại thương (Sales Contract), Hóa đơn thương mại (Commercial Invoice), Phiếu đóng gói (Packing List),
+       Vận đơn (Bill of Lading)…
+  utter_faq/faq_service_1:
+  - text: |-
+      - Hàng sản xuất trong nước: Hóa đơn VAT, trên hàng hóa phải có dán tem, nhãn, mã số hàng hóa trùng khớp với hóa đơ
+       - Hàng vận chuyển nội bộ: Phiếu xuất kho kiêm vận chuyển nội bộ ( mua mẫu ở cơ quan thuế thuộc Bộ Tài Chính cấp) trên các thùng hàng, kiện hàng cũng phải có tem nhãn công ty sản xuất đầy đủ
+       - Hàng nhập khẩu: Phải có tờ khai hải quan, trên kiện hàng phải có tem nhãn phụ bằng Tiếng Việt
+  utter_faq/faq_service_2:
+  - text: |-
+      - Đối với những đơn hàng cần vận chuyển cả chiều đi và chiều về thì cước vận chuyển chiều về được giảm 30% so với chiều đi.
+       - Thời gian chờ bốc hàng chiều về không quá 1 ngày, nếu kéo dài thời gian chờ hơn có thể phụ thu thêm cước xe chờ hàng.
+  utter_faq/faq_1:
+  - text: Để liên hệ trực tiếp thì cách nhanh nhất là gọi điện trực tiếp vào số điện thoại 02436574566 hoặc chat vào mục nhắn tin hoặc gửi vào mail hotrokhachhang@vht.com
+  utter_faq/faq_logistics_4:
+  - text: |-
+      Phiếu đóng gói hàng hóa (Packing List): là loại chứng từ thể hiện cách thức đóng gói của lô hàng. Qua đó, người đọc 
+       có thể biết lô hàng có bao nhiêu kiện, trọng lượng và dung tích thế nào…
+  utter_faq/faq_seaway_7:
+  - text: Phụ phí cước biển - Ocean freight surcharges là các khoản phí tính thêm vào cước biển trong biểu giá của hãng tàu hay của công hội.
+  utter_faq/faq_seaway_8:
+  - text: VGM -Verified Gross Mass là phiếu xác nhận khối lượng toàn bộ (Gross Weight) của container hàng vận chuyển quốc tế.
+  utter_faq/faq_logistics_3:
+  - text: |-
+      Hóa đơn thương mại (Commercial Invoice): chứng từ do người xuất khẩu phát hành để yêu cầu người mua thanh toán cho lô
+       hàng đã bán theo thỏa thuận trong hợp đồng ngoại thương đã ký kết.
+  utter_faq/faq_logistics_2:
+  - text: |-
+      Là thỏa thuận mua bán hàng hóa dịch vụ giữa người mua và người bán ở các quốc gia khác nhau. Các nội dung liên quan thường gồm:
+       thông tin người mua & người bán, thông tin hàng hóa, điều kiện cơ sở giao hàng, thanh toán v.v…
+  utter_faq/faq_logistics_6:
+  - text: |-
+      Incoterms là từ viết tắt của cụm từ tiếng Anh: International Commerce Terms. Đây tập hợp các quy tắc thương mại quốc tế 
+       quy định về trách nhiệm của các bên trong hợp đồng ngoại thương.
+  utter_faq/faq_seaway_6:
+  - text: Vận đơn là chứng từ do người vận chuyển phát hành cho người gửi hàng để xác nhận việc đã nhận hàng hóa chuyển chở.
+  utter_faq/faq_seaway_5:
+  - text: |-
+      Gom hàng (consolidation) là việc tập hợp những lô hàng lẻ từ nhiều người gửi ở cùng một nơi đi, thành lô hàng lớn
+       đóng nguyên container, để gửi và giao cho nhiều người nhận ở cùng một nơi đến. Người kinh doanh dịch vụ gom hàng hay
+       gọi là người gom hàng (Consolidator)
+  utter_faq/faq_seaway_1:
+  - text: |-
+      FCL viết tắt của chữ của Full Container Load, có nghĩa là vận chuyển hàng hóa trong nguyên container,
+       không ghép chung với lô hàng khác.
+  utter_faq/faq_logistics_5:
+  - text: |-
+      Giấy chứng nhận xuất xứ hàng hóa là chứng từ cho biết nguồn gốc xuất xứ của hàng hóa được sản xuất tại vùng lãnh thổ, 
+       quốc gia nào đó.
+  utter_faq/faq_seaway_3:
+  - text: |-
+      Chuyển tải hàng hóa là việc dỡ hàng xuống từ một tàu biển này và lại bốc hàng lên sang tàu biển khác trong
+       một hành trình vận tải đường biển từ cảng bốc hàng tới cảng dỡ hàng.
+  utter_faq/faq_seaway_4:
+  - text: |-
+      Co-loading là việc đem hàng lẻ (LCL) của 1 Forwarder đi đóng ghép với Master Consolidator hoặc hàng nguyên
+       container (FCL) đi đóng ghép với NVOCC.
+  utter_faq/faq_customs_3:
+  - text: |-
+      Luồng xanh:
+       - Tờ khai in từ phần mềm
+       - Tờ mã vạch in từ Website của Tổng cục Hải quan.
+       Luồng vàng
+       - Giấy giới thiệu của công ty
+       - Tờ khai hải quan
+       - Và các chứng từ liên quan...
+       Luồng đỏ:
+       - Hải quan kiểm tra chứng từ
+       - Hải quan kiểm tra hàng hóa
+  utter_faq/faq_seaway_2:
+  - text: |-
+      LCL viết tắt của từ Less than Container Load là nghiệp vụ vận chuyển hàng lẻ đóng ghép chung nhiều
+       lô hàng nhỏ trong cùng 1 container để tiết kiệm chi phí cho chủ hàng.
+  utter_faq/faq_customs_4:
+  - text: |-
+      Là hình thức khai hải quan bằng phần mềm máy tính, sau đó truyền dữ liệu tờ khai hải quan qua mạng internet
+       tới cơ quan hải quan để tiến hành làm tiếp thủ tục.
+  utter_faq/faq_customs_2:
+  - text: |-
+      Bước 1: Chuẩn bị bộ chứng từ hàng hóa
+       Bước 2: Chuẩn bị chữ ký số, đăng ký với Tổng cục hải quan
+       Bước 3: Cài đặt Phần mềm khai báo hải quan VNACCS
+       Bước 4: Đăng ký kiểm tra chuyên ngành (nếu có)
+       Bước 5: Khai và truyền tờ khai hai quan
+       Bước 6: Lấy lệnh giao hàng (với hàng nhập)
+       Bước 7: Chuẩn bị bộ hồ sơ hải quan
+       Bước 8: Làm thủ tục tại chi cục hải quan
+  utter_faq/faq_customs_5:
+  - text: |-
+      “HS Code” hay “Hệ thống HS” được định nghĩa là Hệ thống hài hòa mô tả và mã hóa hàng hóa, là hệ thống được
+       tiêu chuẩn hóa quốc tế về tên gọi và mã số để phân loại hơn 98% hàng hóa được buôn bán trên phạm vi toàn thế giới
+       của Tổ chức Hải quan thế giới – WCO.
+  utter_faq/faq_customs_1:
+  - text: |-
+      Là việc hải quan đồng ý cho hàng hóa được xuất nhập khẩu, sau khi đã dùng các nghiệp vụ cần thiết để 
+      kiểm tra hồ sơ, thực tế hàng hóa (nếu cần thiết).
+  utter_chitchat/chitchat_0:
+  - text: VHT Logistics xin chào! Cảm ơn {call_name} đã liên hệ với chúng tôi. Công ty chúng tôi chuyên cung cấp dịch vụ vận chuyển hàng đóng container đường biển và đường bộ!
+  utter_chitchat/chitchat_2:
+  - text: VHT Logistics rất vui đã hỗ trợ được {call_name}!

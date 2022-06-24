@@ -22,7 +22,6 @@ nlu:
       - E muon lien he vs cong ty thi lam the nao
       - De lien he voi VHT thi lam the nao
       - toi muon lien he vs cong ty thi lam the nao
-      -
   - intent: faq/faq_2
     examples: |
       - Làm thế nào tôi có thể nhận được báo giá cước phí từ VHT Logistics?

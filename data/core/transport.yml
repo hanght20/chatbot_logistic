@@ -6,11 +6,6 @@ stories:
       - intent: transport_register
       - action: utter_product_info
 
-  - story: ask register
-    steps:  
-      - intent: ask_register
-      - action: utter_product_info
-      
 rules:
   - rule: activate form
     steps:
